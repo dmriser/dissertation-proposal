@@ -1,0 +1,108 @@
+# ------------------------------------------
+#    outline for dissertation proposal
+# ------------------------------------------
+#
+#	David Riser - April 4, 2017
+#
+# ------------------------------------------
+
+
+# ------------------------------------------
+  Recommendations from the website (where the form is also availiable): 
+  http://grad.uconn.edu/wp-content/uploads/sites/1635/2016/02/Dissertationproposalfordoctoraldegree.pdf
+# ------------------------------------------
+
+(1) An accurate title
+(2) A concise statement which includes
+    (a) The purpose, importance, and novelty of the study
+    (b) Methods and techniques to be used
+    (c) Availibility and location of research facilities
+
+(3) A selected bibliography
+
+** The website also stresses that the document does not need to be
+   any longer than the minimum length to explain sufficiently your
+   topic.  Ten pages is an upper limit.
+
+# ------------------------------------------
+  Answers to (2)
+# ------------------------------------------
+
+(a) The purpose of this study:
+    	- To measure the differential cross section for e p -> e pi0 x
+
+    The importance of this study:
+    	- Unknown Bohr Mulders fn can be extracted from xs cos2(phi) term.
+	- learn about trans. pol quarks in unpol nucl.
+
+    The novelty of this study 
+    	- The cross section has never been measured for pi0.
+
+(b) Methods and Techniques to be used:
+    	- We use modern computing to do analysis of electron-proton scattering experiments.
+	- We identify those particles we are interested in, correct their properties, take the
+	  steps to convert counted rates into cross sections, and analyze the errors of our
+	  study.
+	  
+(c) Location & Availiability of Research Facilities:
+    	- Jefferson Lab. in Newport News, VA will be the facility,
+	  we use data that was taken in 2003 during the E1-F run.
+	  This was taken by CLAS in Hall-B.
+
+
+# ------------------------------------------
+	Overall Structure of Document
+# ------------------------------------------
+
+(1) Title page and Abstract
+(2) Theoretical Motivation (Answers the questions purpose and novelty/importance of study)
+(3) Analysis (JLab, CLAS, Overall Path to answer, Steps of analysis) (Answers the question of our methodology)
+(4) Current Status and Future Steps
+(5) Conclusion (Reiterate the points in answer to 2)
+
+# ------------------------------------------
+	(1) Title Page and Abstract
+# ------------------------------------------
+Say what we're going to do.  Preview what follows (explicity say we will answer (a) in section 1).
+
+# ------------------------------------------
+	(2) Theory Motivation 
+# ------------------------------------------
+Historical remarks about the salient points of qcd,
+the confinement of colored particles, the applicability
+of pQCD.
+Historical Introduction to 1-D Collinear PDF's (factorization mention),
+introduction of current "hot topics" and TMD
+table shown.  Introduce processes that we
+can use to access these TMD, and explain SIDIS.
+Show SIDIS cross sec. in terms of SF, and then
+show how SF is connected to the TMD's.  Mention
+factorization.  Point out which terms we can
+measure, and the TMD that is connected (BM).
+
+
+
+# ------------------------------------------
+	(3) Analysis Section
+# ------------------------------------------
+This section focuses on answering the
+question of what methodology we would use
+to measure this cross section.  We also
+inform the reader of the facility we plan
+to use to complete the work.
+
+Brief introduction to the CEBAF and CLAS.
+Discussion of the methodology for PID,
+event selection, kinematic corrections,
+radiative corrections, acceptance corrections.
+
+Luminosity extraction, and verification of this.
+
+# ------------------------------------------
+	(4) Current Status and Future Steps
+# ------------------------------------------
+
+Results of the inclusive measurement for
+each of the steps shown above.  Explain what
+remains.
+

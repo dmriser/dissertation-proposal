@@ -1,0 +1,10 @@
+*.pdf
+*.o
+*.so
+*.bbl
+*.bcf
+*.blg
+*.aux
+*.fls
+*.toc
+*.xml

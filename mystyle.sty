@@ -1,20 +1,29 @@
 \ProvidesPackage{mystyle}
 
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage{slashed}
+\usepackage{mathtools}
+\usepackage{bm}
+
 \usepackage[backend=biber]{biblatex}
 \addbibresource{firstLast/Bibliography.bib}
 
 \usepackage[a4paper, margin=1.0in]{geometry}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-
 \lhead{}
 \chead{}
 \rhead{Dissertation Proposal}
-
 \lfoot{}
 \cfoot{\thepage}
 \rfoot{}
 
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{physics}
+
+% math macros 
+\newcommand{\vect}[1]{\ensuremath{{\bm{#1}}}}
+\newcommand{\kt}{\vect{k}_T}
+\newcommand{\pt}{\vect{p}_T}
+\newcommand{\hhat}{\hat{\vect{h}}}

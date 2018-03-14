@@ -1,5 +1,5 @@
 \section{Methodology}
-To measure the SIDIS cross section presented above, one needs a source of high energy electrons, a detector system capable of measuring the final state electron and hadron, and a computing cluster to perform data processing and analysis.  All of these facilities are provided by Jefferson National Lab, which houses an electron accelerator known as CEBAF, the CLAS spectrometer for detection, and a moderate sized computing cluster for data processing.  In addition to these facilities, a set of analysis techniques and procedures is needed to complete this thesis study.  This section details the methodology used to complete this thesis, comprised of the experimental facility and procedure as well as the data analysis procedure.
+To measure the SIDIS events, one needs a source of high energy electrons, a detector system capable of measuring the final state electron and hadron, and a computing cluster to perform data processing and analysis.  All of these facilities are provided by Jefferson National Lab, which houses an electron accelerator known as CEBAF, the CLAS spectrometer for detection, and a moderate sized computing cluster for data processing.  In addition to these facilities, a set of analysis techniques and procedures is needed to complete this thesis study.  This section details the methodology used to complete this thesis, comprised of the experimental facility and procedure as well as the data analysis procedure.
 
 \subsection{Experimental Facility}
 Jefferson Lab is home to the Continuous Electron Beam Accelerator Facility (CEBAF).  It houses 4 state of the art experimental end-stations for fixed target collisions of electrons or photons on various targets.  CEBAF begins with a 45-MeV electron injector.  The accelerator consists of two linear accelerators (north and south LINACs) and a set of 4 recirculating arcs at both ends of the race track shaped facility.  Electrons are passed through the LINACs up to 4 times, gaining 1.14 GeV each pass.  CEBAF was designed to generate up to 6 GeV electron beams, and has now been upgraded to provide 12 GeV electrons. Electrons are delivered to the halls in bunches of approximately 1 million at 2 ns intervals.
@@ -14,14 +14,7 @@ Hall-B contains the CEBAF Large Acceptance Spectrometer (CLAS) a large spherical
   \label{fig:jlab}
 \end{figure}
 
-\begin{figure}
-  \centering
-  \includegraphics[width=10cm]{image/no-image.jpg}
-  \caption{Image to add later.}
-  \label{fig:no-image}
-\end{figure}
-
-
+\easyFigure{image/no-image.jpg}{This image will be added later.}
 
 \begin{itemize}
 \item Large Torus Magnet - The torus is the central bending magnet which creates a toroidal magnetic field and dictates the design of almost all other detectors.  The torus consists of 6 superconducting coils, (operated at up to 3860 Amperes) which seperate the forward detector systems into 6 distict sectors.  The torus magnet can be used to bend charged particles toward or away from the beamline, and creates the field necessary to determine charge and momentum of particles incident on the CLAS detectors.  
@@ -65,8 +58,7 @@ All negative tracks start out as electron candidates, they are accepted if they 
   \label{fig:ecfid}
 \end{figure}
 
-\subsubsection{Neutral Pion Identification}
-The dominant decay mode for neutral pions is a strong decay into two photons, with a branching ratio of almost 99\%.  For this reason we identify photons and then combine them to form candidate neutral pions.  All neutral tracks start out as candidate photons, and the dominant background is the neutron. We first require that $E_{\gamma} > 0.15 GeV$ and $\theta_{e\gamma} > 12^{\circ}$. The distribution of $\beta(p)$ is fit to extract the high $\beta$ photons. This cut removes all but the highest momentum neutrons.  The invariant mass of the two photon pair is then computed and a cut is placed around the mass of the neutral pion.  
+\subsubsection{Kaon Identification}
 
 \subsubsection{Acceptance and Radiative Corrections}
 Monte Carlo methods are incorperated into almost every analysis in particle physics, and are often used to predict results of coming/proposed experiments.  In this analysis, monte carlo events that follow physical distributions are generated to calculate detector acceptance and do radiative corrections.  Due to physical restrictions of the detector (edges, obstructions, and holes) as well as inefficiencies, the number of events reconstructed is not in general the true number of events which occured in the experiment.  Moreover, while holes and obstructions may be quite obvious in angular or spatial distribtutions, thier effects on kinematic distributions is highly non-trivial.  In order to correct for this effect, the detector acceptance is calculated.  First, a large sample of events are generated and the true kinematics are saved.  These events are swam through the detector in a simulation known as GSIM (based on the CERN GEometry ANd Tracking package version 3).  The output of GSIM is then comparable to the raw data from the experiment.  One additional step is performed before reconstruction that smears the resolution in the drift chambers and time of flight to match experimentally measured parameters.  The simulated data is then reconstructed in the same way as data using recsis.  Acceptance is defined as the ratio of reconstructed events in each bin to the number of generated events in that bin.

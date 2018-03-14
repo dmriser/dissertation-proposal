@@ -1,5 +1,5 @@
 \section{Methodology}
-To measure the SIDIS cross section presented above, one needs a source of high energy electrons, a detector system capable of measuring the final state electron and hadron, and a computing cluster to perform data processing and analysis.  All of these facilities are provided by Jefferson National Lab, which houses an electron accelerator known as CEBAF, the CLAS spectrometer for detection, and a moderate sized computing cluster for data processing.  In addition to these facilities, a set of analysis techniques and procedures is needed to complete this thesis study.  This section details the methodology used to complete this thesis, comprised of the experimental facility and procedure as well as the data analysis procedure.
+To measure the SIDIS events, one needs a source of high energy electrons, a detector system capable of measuring the final state electron and hadron, and a computing cluster to perform data processing and analysis.  All of these facilities are provided by Jefferson National Lab, which houses an electron accelerator known as CEBAF, the CLAS spectrometer for detection, and a moderate sized computing cluster for data processing.  In addition to these facilities, a set of analysis techniques and procedures is needed to complete this thesis study.  This section details the methodology used to complete this thesis, comprised of the experimental facility and procedure as well as the data analysis procedure.
 
 \subsection{Experimental Facility}
 Jefferson Lab is home to the Continuous Electron Beam Accelerator Facility (CEBAF).  It houses 4 state of the art experimental end-stations for fixed target collisions of electrons or photons on various targets.  CEBAF begins with a 45-MeV electron injector.  The accelerator consists of two linear accelerators (north and south LINACs) and a set of 4 recirculating arcs at both ends of the race track shaped facility.  Electrons are passed through the LINACs up to 4 times, gaining 1.14 GeV each pass.  CEBAF was designed to generate up to 6 GeV electron beams, and has now been upgraded to provide 12 GeV electrons. Electrons are delivered to the halls in bunches of approximately 1 million at 2 ns intervals.
@@ -39,17 +39,12 @@ Hall-B contains the CEBAF Large Acceptance Spectrometer (CLAS) a large spherical
 \end{figure}
 
 \subsection{Data Analysis}
-Data analyses consist of several important steps:
+Analysis of the data taken by the CLAS detector is a process which starts with reconstruction of the raw data (electrical signals recorded by ADC and TDC components).  The reconstruction algorythm builds particle tracks by finding the best possible track through a set of detector hits.  The result is a set of files with charge, momentum, timing, and preliminary particle identification information for each event.  The reconstruction package is the critical first step to a data analysis, and the interested reader can find more details in \cite{reconstruction-doc}.\\
 
-\begin{itemize}
-\item Particle Identification
-\item Acceptance Corrections
-\item Radiative Corrections
-\item Error Studies (Statistical and Systematic)
-\end{itemize}
+The first task for most analysists is the identification of electrons that come from the event.
 
 \subsubsection{Electron Identification}
-All negative tracks start out as electron candidates, they are accepted if they pass a series of identification cuts. The ratio $E_{Dep}/p$ is calculated for each track, and because electrons have a very constant ratio as a function of momentum, we can use this ratio to separate them from minimally ionizing particles ($\pi^{-}$ being the most dominant background).  Exploiting this same logic, a cut is placed on the minimum energy deposited in the electromagnetic calorimeter inner layers.Tracks that pass these cuts are next subjected to a variety of geometric cuts to ensure that they pass through regions of the detectors that are well understood.  Tracks passing too close to the edges of the electromagnetic calorimeters can shower outside of the detector leading to incorrect reconstruction of energy for that particle.  Finally, cuts are applied to the Cherenkov counter signal.  Often, charged pions do not have enough momentum $p \leq 2.4 GeV/c$ to participate in the Cherenkov Effect and no signal is preset in the Cherekov Counter.  By requiring a signal in the Cherenkov we remove these events.  We then apply matching cuts to the detection angle of the track in the Cherenkov Counter and the number of the PMT which detected the track (these should be 1-to-1 correlated).  
+All negative tracks start out as electron candidates, they are accepted if they pass a series of identification cuts. The ratio $E_{Dep}/p$ is calculated for each track, and because electrons have a very constant ratio as a function of momentum, we can use this ratio to separate them from minimally ionizing particles ($\pi^{-}$ being the most dominant background).  Exploiting this same logic, a cut is placed on the minimum energy deposited in the electromagnetic calorimeter inner layers.Tracks that pass these cuts are next subjected to a variety of geometric cuts to ensure that they pass through regions of the detectors that are well understood.  Tracks passing too close to the edges of the electromagnetic calorimeters can shower outside of the detector leading to incorrect reconstruction of energy for that particle.  Finally, cuts are applied to the Cherenkov counter signal.  Often, charged pions do not have enough momentum $p \leq 2.4 GeV/c$ to participate in the Cherenkov Effect and no signal is preset in the Cherekov Counter.  By requiring a signal in the Cherenkov we remove these events.  We then apply matching cuts to the detection angle of the track in the Cherenkov Counter and the number of the PMT which detected the track (these should be 1-to-1 correlated).  These proceedures are summarized in detail in the following note \cite{electron-note}.
 
 \begin{figure}
   \centering
@@ -58,28 +53,6 @@ All negative tracks start out as electron candidates, they are accepted if they 
   \label{fig:ecfid}
 \end{figure}
 
-\subsubsection{Neutral Pion Identification}
-The dominant decay mode for neutral pions is a strong decay into two photons, with a branching ratio of almost 99\%.  For this reason we identify photons and then combine them to form candidate neutral pions.  All neutral tracks start out as candidate photons, and the dominant background is the neutron. We first require that $E_{\gamma} > 0.15 GeV$ and $\theta_{e\gamma} > 12^{\circ}$. The distribution of $\beta(p)$ is fit to extract the high $\beta$ photons. This cut removes all but the highest momentum neutrons.  The invariant mass of the two photon pair is then computed and a cut is placed around the mass of the neutral pion.  
+\subsubsection{Kaon Identification}
+If an event contains a good electron, the rest of the event is processed.  Kaons are identified based on time of flight information.  In this analysis, we use a maximum likelihood ratio technique to classify all positive tracks as either pions, kaons, or protons.  Finally, we control the track quality by requiring a significance level of $\alpha = 0.05$.  These procedures are described in detail in the following note \cite{kaon-note}.
 
-\subsubsection{Acceptance and Radiative Corrections}
-Monte Carlo methods are incorperated into almost every analysis in particle physics, and are often used to predict results of coming/proposed experiments.  In this analysis, monte carlo events that follow physical distributions are generated to calculate detector acceptance and do radiative corrections.  Due to physical restrictions of the detector (edges, obstructions, and holes) as well as inefficiencies, the number of events reconstructed is not in general the true number of events which occured in the experiment.  Moreover, while holes and obstructions may be quite obvious in angular or spatial distribtutions, thier effects on kinematic distributions is highly non-trivial.  In order to correct for this effect, the detector acceptance is calculated.  First, a large sample of events are generated and the true kinematics are saved.  These events are swam through the detector in a simulation known as GSIM (based on the CERN GEometry ANd Tracking package version 3).  The output of GSIM is then comparable to the raw data from the experiment.  One additional step is performed before reconstruction that smears the resolution in the drift chambers and time of flight to match experimentally measured parameters.  The simulated data is then reconstructed in the same way as data using recsis.  Acceptance is defined as the ratio of reconstructed events in each bin to the number of generated events in that bin.
-
-\begin{equation}
-  A_{i} = \left( \frac{N_{rec}}{N_{gen}} \right)_{i}
-\end{equation}
-
-\begin{figure}
-  \centering
-  \includegraphics[width=5cm]{image/acceptanceSector0Slice4.png}
-  \includegraphics[width=5cm]{image/compareDataSimSector0Slice4.png}
-  \caption{Left: Acceptance for one $Q^{2}$ bin shown as a function of W.  Right: Comparison between data and reconstructed events. }
-  \label{fig:acceptance}
-\end{figure}
-
-Here the subscript $i$ reminds the reader that the acceptance ratio is calculated in each bin.  
-
-Radiative effects such as initial or final state radiation alter the kinematics of events and lead to shifts in kinematic quantities.  It is standard practice to calculate and publish Born cross sections (without radiative effects).  Typically, a set of monte carlo generators (with/without radiative effects) is used to create a correction factor for each bin to correct for radiative effects.  We define the correction factor:
-
-\begin{equation}
-  R_{i} = \left( \frac{N_{Gen}^{rad}}{N_{Gen}^{norad}} \right)_{i}
-\end{equation}

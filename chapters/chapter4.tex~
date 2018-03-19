@@ -32,7 +32,8 @@ Some of these effects (holes/obstructions) can be taken into consideration using
 \subsection{Radiative Corrections}
 It is not uncommon for electrons to emit a real photon in the initial or final state of the interaction.  These radiations alter the event kinematics and must be removed in order to present Born cross sections (nature provides us with the radiated cross section).  This is done by modeling the inclusive reaction with and without radiative effects and comparing the results.  The correction factor $R = N_{rad}/N_{no rad}$ can be constructed from a sufficent event generator(in this analysis we use \texttt{keppel\_rad} and \texttt{keppel\_norad}).  
 
-\subsection{Comparrison with Model}
+\subsection{Comparison to Model}
+Our result is compared to a commonly used and accepted model which is a parametrization of the resonance region between $W \in [1.1, 2.0]$.  Over the majority of the kinematics our result is within 5\% of the model value.  
 
 %\begin{figure}
 %  \centering
@@ -48,5 +49,11 @@ It is not uncommon for electrons to emit a real photon in the initial or final s
 %  \caption{Ratio of data to Keppel model.}
 %\end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Too many figures for this short document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \easyFigure{image/compareDataModelSector0Slice2.png}{Our cross section result compared with Keppel's model.}
-\easyFigure{image/crossSectionRatioSector0Slice2.png}{Our cross section result compared with Keppel's model.}
+%\easyFigure{image/crossSectionRatioSector0Slice2.png}{Our cross section result compared with Keppel's model.}
+

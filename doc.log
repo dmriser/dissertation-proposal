@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 MAR 2018 14:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 MAR 2018 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1772,7 +1772,6 @@ File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 
 (/Users/davidriser/repos/dissertation-proposal/doc.aux
 (/Users/davidriser/repos/dissertation-proposal/firstLast/title.aux)
-(/Users/davidriser/repos/dissertation-proposal/firstLast/abstract.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter2.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter3.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter4.aux)
@@ -1842,42 +1841,7 @@ Package biblatex Info: ... file 'doc.bbl' found.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                gohn
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                reconstruction-doc
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                kaon-note
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                fcup-website
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                electron-note
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                fcup-note
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1947,15 +1911,6 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
 
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-\openout2 = `firstLast/abstract.aux'.
-
-
-(/Users/davidriser/repos/dissertation-proposal/firstLast/abstract.tex
-LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
-) [2
-
-]
 \openout2 = `chapters/chapter2.aux'.
 
 
@@ -1963,62 +1918,52 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Overfull \hbox (3.85428pt too wide) in paragraph at lines 12--13
+\OT1/ppl/m/n/10 tions that we mea-sure. This will be done us-ing a Gaus-sian an
+satz for the $\OML/cmm/b/it/10 k[]$ \OT1/ppl/m/n/10 de-pen-dence, and parametri
+z-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-<image/tmd-table.jpg, id=12, 820.6142pt x 559.50967pt>
+<image/tmd-table.jpg, id=9, 820.6142pt x 559.50967pt>
 File: image/tmd-table.jpg Graphic file (type jpg)
 
 <use image/tmd-table.jpg>
-Package pdftex.def Info: image/tmd-table.jpg used on input line 16.
+Package pdftex.def Info: image/tmd-table.jpg used on input line 26.
 (pdftex.def)             Requested size: 284.52756pt x 193.99577pt.
- [3
-
-
- </Users/davidriser/repos/dissertation-proposal/image/tmd-table.jpg>] <image/Ph
-iHadron.png, id=22, 391.4625pt x 160.6pt>
+ <image/PhiHadron.png, id=10, 391.4625pt x 160.6pt>
 File: image/PhiHadron.png Graphic file (type png)
 
 <use image/PhiHadron.png>
-Package pdftex.def Info: image/PhiHadron.png used on input line 33.
+Package pdftex.def Info: image/PhiHadron.png used on input line 43.
 (pdftex.def)             Requested size: 284.52756pt x 116.73465pt.
+ [2
 
-Overfull \hbox (3.59573pt too wide) in alignment at lines 44--73
- [][][] []
- []
-
-[4 </Users/davidriser/repos/dissertation-proposal/image/PhiHadron.png (PNG copy
-)>]
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-
- []
-
-) [5]
+] [3 </Users/davidriser/repos/dissertation-proposal/image/tmd-table.jpg> </User
+s/davidriser/repos/dissertation-proposal/image/PhiHadron.png (PNG copy)>]) [4]
 \openout2 = `chapters/chapter3.aux'.
 
- (/Users/davidriser/repos/dissertation-proposal/chapters/chapter3.tex
-<image/cebaf.jpg, id=33, 144.54pt x 111.2958pt>
+
+(/Users/davidriser/repos/dissertation-proposal/chapters/chapter3.tex
+<image/cebaf.jpg, id=30, 144.54pt x 111.2958pt>
 File: image/cebaf.jpg Graphic file (type jpg)
  <use image/cebaf.jpg>
 Package pdftex.def Info: image/cebaf.jpg used on input line 12.
 (pdftex.def)             Requested size: 284.52756pt x 219.09776pt.
-
-<image/no-image.jpg, id=34, 1204.5pt x 903.375pt>
-File: image/no-image.jpg Graphic file (type jpg)
- <use image/no-image.jpg>
-Package pdftex.def Info: image/no-image.jpg used on input line 17.
-(pdftex.def)             Requested size: 452.9679pt x 339.7297pt.
 LaTeX Font Info:    Try loading font information for OMS+ppl on input line 20.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsppl.fd
@@ -2026,24 +1971,17 @@ File: omsppl.fd
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
- [6
+ [5
 
 
- </Users/davidriser/repos/dissertation-proposal/image/cebaf.jpg>] [7 </Users/da
-vidriser/repos/dissertation-proposal/image/no-image.jpg>]
-<image/clas.png, id=42, 686.565pt x 445.665pt>
+ </Users/davidriser/repos/dissertation-proposal/image/cebaf.jpg>]
+<image/clas.png, id=34, 686.565pt x 445.665pt>
 File: image/clas.png Graphic file (type png)
  <use image/clas.png>
 Package pdftex.def Info: image/clas.png used on input line 29.
 (pdftex.def)             Requested size: 284.52756pt x 184.68912pt.
-
-<image/ec.png, id=43, 632.3625pt x 481.8pt>
-File: image/ec.png Graphic file (type png)
- <use image/ec.png>
-Package pdftex.def Info: image/ec.png used on input line 36.
-(pdftex.def)             Requested size: 284.52756pt x 216.78593pt.
- [8 </Users/davidriser/repos/dissertation-proposal/image/clas.png (PNG copy)>]
-<image/ECFiducial.png, id=47, 800.9925pt x 776.9025pt>
+ [6 </Users/davidriser/repos/dissertation-proposal/image/clas.png (PNG copy)>]
+<image/ECFiducial.png, id=38, 800.9925pt x 776.9025pt>
 File: image/ECFiducial.png Graphic file (type png)
 
 <use image/ECFiducial.png>
@@ -2054,19 +1992,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-) [9 </Users/davidriser/repos/dissertation-proposal/image/ec.png (PNG copy)>]
-[10 </Users/davidriser/repos/dissertation-proposal/image/ECFiducial.png>]
+) [7 </Users/davidriser/repos/dissertation-proposal/image/ECFiducial.png>]
 \openout2 = `chapters/chapter4.aux'.
 
 
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter4.tex
-<image/charge_37844.png, id=54, 798.985pt x 473.77pt>
+<image/charge_37844.png, id=43, 798.985pt x 473.77pt>
 File: image/charge_37844.png Graphic file (type png)
 
 <use image/charge_37844.png>
 Package pdftex.def Info: image/charge_37844.png used on input line 20.
 (pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
- [11
+ [8
 
 
  </Users/davidriser/repos/dissertation-proposal/image/charge_37844.png>]
@@ -2075,24 +2012,15 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 33.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<image/compareDataModelSector0Slice2.png, id=58, 798.985pt x 473.77pt>
+<image/compareDataModelSector0Slice2.png, id=47, 798.985pt x 473.77pt>
 File: image/compareDataModelSector0Slice2.png Graphic file (type png)
 
 <use image/compareDataModelSector0Slice2.png>
 Package pdftex.def Info: image/compareDataModelSector0Slice2.png used on input 
-line 52.
+line 57.
 (pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
-
-<image/crossSectionRatioSector0Slice2.png, id=59, 798.985pt x 473.77pt>
-File: image/crossSectionRatioSector0Slice2.png Graphic file (type png)
-
-<use image/crossSectionRatioSector0Slice2.png>
-Package pdftex.def Info: image/crossSectionRatioSector0Slice2.png used on input
- line 53.
-(pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
-) [12 </Users/davidriser/repos/dissertation-proposal/image/compareDataModelSect
-or0Slice2.png>] [13 </Users/davidriser/repos/dissertation-proposal/image/crossS
-ectionRatioSector0Slice2.png>]
+) [9 </Users/davidriser/repos/dissertation-proposal/image/compareDataModelSecto
+r0Slice2.png>]
 \openout2 = `chapters/chapter5.aux'.
 
 
@@ -2106,20 +2034,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-[14
+[10
 
 
-]) [15]
+] <image/bsa_z_sys.pdf, id=57, 841.86836pt x 838.07292pt>
+File: image/bsa_z_sys.pdf Graphic file (type pdf)
+
+<use image/bsa_z_sys.pdf>
+Package pdftex.def Info: image/bsa_z_sys.pdf used on input line 43.
+(pdftex.def)             Requested size: 452.9679pt x 450.92857pt.
+) [11 </Users/davidriser/repos/dissertation-proposal/image/bsa_z_sys.pdf>]
 \openout2 = `chapters/chapter6.aux'.
 
- (/Users/davidriser/repos/dissertation-proposal/chapters/chapter6.tex) [16
+
+(/Users/davidriser/repos/dissertation-proposal/chapters/chapter6.tex) [12
 
 
-] [17
+]
+[13
 
 ] (/Users/davidriser/repos/dissertation-proposal/doc.aux
 (/Users/davidriser/repos/dissertation-proposal/firstLast/title.aux)
-(/Users/davidriser/repos/dissertation-proposal/firstLast/abstract.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter2.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter3.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter4.aux)
@@ -2130,13 +2065,13 @@ Package logreq Info: Writing requests to 'doc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18485 strings out of 492995
- 332669 string characters out of 6132704
- 760440 words of memory out of 5000000
- 21769 multiletter control sequences out of 15000+600000
- 25881 words of font info for 79 fonts, out of 8000000 for 9000
+ 18476 strings out of 492995
+ 332309 string characters out of 6132704
+ 758308 words of memory out of 5000000
+ 21768 multiletter control sequences out of 15000+600000
+ 24922 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,11n,45p,10402b,1129s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,45p,10402b,1164s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
@@ -2155,10 +2090,10 @@ t/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on doc.pdf (17 pages, 871636 bytes).
+Output written on doc.pdf (13 pages, 637064 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 155 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

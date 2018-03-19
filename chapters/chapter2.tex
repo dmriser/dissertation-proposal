@@ -1,15 +1,25 @@
 
 \section{Motivation}
 
+\subsection{Statement of Purpose}
+This dissertation will present measurements for, 
+
+\begin{enumerate}
+  \item the SIDIS structure functions $F_{UU,T}$, $F_{UU}^{\cos\phi}$, and $F_{UU}^{\cos(2\phi)}$.  This will be extracted for $\pi^+$ and $\pi^-$ from the differential cross section.
+  \item the SIDIS structure function $F_{LU}^{\sin\phi}$.  This will be extracted from beam spin asymmetry measurements for $K^{+}$.
+\end{enumerate}
+
+We will also provide extraction of the Boer-Mulders TMD $h_{1}^{\perp}$ from the unpolarized structure functions that we measure.  This will be done using a Gaussian ansatz for the $\kt$ dependence, and parametrizing the $x$ and $z$ dependence of the function.  
+
 \subsection{Qualitative Motivation}
 
 The field of nuclear and particle physics grew tremendously during the middle part of the 20th century.  As the Stanford Linear Accelerator (SLAC) accelerated electrons and collided them into various types of targets, previously unknown particles were discovered rapidly.  The abundance of particles was eventually explained by Gell-Man and Zweig with the inclusion of a set of new fundemental particles called quarks that carried a new degree of freedom known as color.  These ideas birthed the Quark Model which successfully predicted the masses and existence of new particles made of quarks, and eventually grew into Quantum Chromodynamics (QCD).  \\
 
-A key feature of Quantum Chromodynamics is confinement; bound states of quarks must be colorless and quarks cannot be directly observed outside of the Hadrons they compose.  During the last 50 years, quark momenta within Hadrons has been studied successfully with colinear parton distribution functions (PDF's).  At leading order these functions $f(x)$ can be interpreted as the probability to find a quark with a colinear momentum fraction $x$ in a Hadron.  However, the one dimensional momentum distributions don't tell the full story of what's happening inside the Hadron.  During the last 15-20 years the focus has shifted to the study of 3-dimensional nucleon structure. \\
+A key feature of Quantum Chromodynamics is confinement; bound states of quarks must be colorless and thus quarks cannot be directly observed outside of the hadrons they compose.  During the last 50 years, quark momenta within hadrons has been studied successfully with colinear parton distribution functions (PDF's).  At leading order these functions $f(x)$ can be interpreted as the probability to find a quark with a colinear (along the direction of the momentum transfer from the probe) momentum fraction $x$ in a hadron.  However, the one dimensional momentum distributions don't tell the full story of what's happening inside the hadron, and during the last 15-20 years the focus has shifted to the study of 3-dimensional nucleon structure. \\
 
 The transverse momentum dependent parton distribution functions (TMD's) are a set of functions $f(x,\kt)$ that describe quark distributions for a quark with momentum fraction $x$ and a momentum in the transverse plane $\kt$.  TMD functions are expected to be universal, and show up in the cross sections for Drell-Yan ($hh \rightarrow l \bar{l}X$) as well as Semi-Inclusive Deep Inelastic Scattering (SIDIS) events.  This thesis work will measure the latter.  \\
 
-At leading order (twist), there are 8 TMD's each corresponding to different combinations of quark and nucleon spin.  They are shown in figure \ref{fig:tmd-table}.  The Boer-Mulders function $h^{1}_{\perp}$ for example, describes the difference in transverse quark polarization in an unpolarized nucleus, and has attracted a lot of interest for it's possible connection to quark angular momentum.  A non-zero observation of the Boer-Mulders function would imply that quarks have a non-zero orbital angular momentum.  By measuring the semi-inclusive deep inelastic scattering cross section for an unpolarized target and beam, the Boer-Mulders function can be extracted.
+At leading order (twist 2) there are 8 TMD functions, each corresponding to different combinations of quark and nucleon spin.  They are shown in figure \ref{fig:tmd-table}.  The Boer-Mulders function $h_{1}^{\perp}$ for example, describes the difference in transverse quark polarization in an unpolarized nucleus, and has attracted a lot of interest for it's possible connection to quark angular momentum.  A non-zero observation of the Boer-Mulders function would imply that quarks have a non-zero orbital angular momentum.  By measuring the semi-inclusive deep inelastic scattering cross section for an unpolarized target and beam, the Boer-Mulders function will be extracted.
 
 \begin{figure}
   \centering
@@ -26,7 +36,7 @@ Deep Inelastic Scattering (DIS) events are those in which a lepton $e(l)$ collid
   e(l) + h(P) \rightarrow e'(l') + h(P_{h}) + X 
 \end{equation}
 
-In DIS and SIDIS it is customary to define the following kinematic variables (where $q = l - l'$ and $Q^{2} = -q^{2}$). 
+In SIDIS it is customary to define the following kinematic variables (where $q = l - l'$ and $Q^{2} = -q^{2}$). 
 
 \begin{figure}
   \centering
@@ -38,41 +48,39 @@ In DIS and SIDIS it is customary to define the following kinematic variables (wh
 \begin{align}
   x = \frac{Q^{2}}{2P \cdot q} && y = \frac{P \cdot q}{P \cdot l} && z = \frac{P \cdot P_{h}}{P \cdot q} && \gamma = \frac{2Mx}{Q}
 \end{align}
- 
-The differential cross section for SIDIS can be written in a model independent way by introducing a set of structure functions $F$,
 
-\begin{eqnarray}
-\frac{d\sigma^{e^-P\to e^-hX}}{dx_B \, dQ^{2} \,dz\, d\phi_h\, d p_{h\perp}^2}
-&=&\frac{\alpha^2_{em}}{2x_B y Q^2}
-\frac{y^2}{1-\varepsilon}  ( 1+\frac{\gamma^2}{2x_B} ) \Bigl\{  \nonumber \\
-&& F_{UU ,T} +  \varepsilon F_{UU ,L}
-+ \sqrt{2\,\varepsilon (1+\varepsilon)} \cos\phi_h F_{UU}^{\cos\phi_h}
-+ \varepsilon \cos(2\phi_h) F_{UU}^{\cos 2\phi_h} \nonumber \\
-&+& \lambda_e
-\sqrt{2\,\varepsilon (1-\varepsilon)} \sin\phi_h F_{LU}^{\sin\phi_h}
-+ \lambda \big[ \sqrt{2 \varepsilon (1+\varepsilon)} \sin\phi_h F_{UL}^{\sin\phi_h}
-  +  \varepsilon \sin(2\phi_h) F_{UL}^{\sin 2\phi_h} \big] \nonumber \\
-&+&  \lambda_e \lambda
-\big[\sqrt{1-\varepsilon^2} F_{LL}
-  +\sqrt{2\varepsilon (1-\varepsilon)} \cos\phi_h F_{LL}^{\cos \phi_h}\big] \nonumber \\
-&+& s_\perp
-\big[ \sin(\phi_h-\phi_S) \bigl(F_{UT ,T}^{\sin(\phi_h -\phi_S)}
-  + \varepsilon\, F_{UT ,L}^{\sin(\phi_h -\phi_S)}\bigr) \nonumber \\
-  && \phantom{s_\perp}
-  + \varepsilon \sin(\phi_h+\phi_S) F_{UT}^{\sin(\phi_h +\phi_S)}
-  + \varepsilon \sin(3\phi_h-\phi_S) F_{UT}^{\sin(3\phi_h -\phi_S)} \nonumber \\
-  && \phantom{s_\perp}
-  + \sqrt{2\,\varepsilon (1+\varepsilon)} \sin\phi_S F_{UT}^{\sin \phi_S }
-  + \sqrt{2\,\varepsilon (1+\varepsilon)} \sin(2\phi_h-\phi_S) F_{UT}^{\sin(2\phi_h -\phi_S)}\big]\nonumber \\
-&+& \lambda_e s_\perp
-\big[\sqrt{1-\varepsilon^2} \cos(\phi_h-\phi_S) F_{LT}^{\cos(\phi_h -\phi_S)}
-  +\sqrt{2\varepsilon (1-\varepsilon)} \cos\phi_S F_{LT}^{\cos \phi_S} \nonumber \\
-  && \phantom{\lambda_e s_\perp}
-  +\sqrt{2\,\varepsilon (1-\varepsilon)} \cos(2\phi_h-\phi_S) F_{LT}^{\cos(2\phi_h - \phi_S)} \big] \Bigr\},
-\label{e:crossmaster}
-\end{eqnarray}
+%\begin{eqnarray}
+%\frac{d\sigma^{e^-P\to e^-hX}}{dx_B \, dQ^{2} \,dz\, d\phi_h\, d p_{h\perp}^2}
+%&=&\frac{\alpha^2_{em}}{2x_B y Q^2}
+%\frac{y^2}{1-\varepsilon}  ( 1+\frac{\gamma^2}{2x_B} ) \Bigl\{  \nonumber \\
+%&& F_{UU ,T} +  \varepsilon F_{UU ,L}
+%+ \sqrt{2\,\varepsilon (1+\varepsilon)} \cos\phi_h F_{UU}^{\cos\phi_h}
+%+ \varepsilon \cos(2\phi_h) F_{UU}^{\cos 2\phi_h} \nonumber \\
+%&+& \lambda_e
+%\sqrt{2\,\varepsilon (1-\varepsilon)} \sin\phi_h F_{LU}^{\sin\phi_h}
+%+ \lambda \big[ \sqrt{2 \varepsilon (1+\varepsilon)} \sin\phi_h F_{UL}^{\sin\phi_h}
+%  +  \varepsilon \sin(2\phi_h) F_{UL}^{\sin 2\phi_h} \big] \nonumber \\
+%&+&  \lambda_e \lambda
+%\big[\sqrt{1-\varepsilon^2} F_{LL}
+%  +\sqrt{2\varepsilon (1-\varepsilon)} \cos\phi_h F_{LL}^{\cos \phi_h}\big] \nonumber \\
+%&+& s_\perp
+%\big[ \sin(\phi_h-\phi_S) \bigl(F_{UT ,T}^{\sin(\phi_h -\phi_S)}
+%  + \varepsilon\, F_{UT ,L}^{\sin(\phi_h -\phi_S)}\bigr) \nonumber \\
+%  && \phantom{s_\perp}
+%  + \varepsilon \sin(\phi_h+\phi_S) F_{UT}^{\sin(\phi_h +\phi_S)}
+%  + \varepsilon \sin(3\phi_h-\phi_S) F_{UT}^{\sin(3\phi_h -\phi_S)} \nonumber \\
+%  && \phantom{s_\perp}
+%  + \sqrt{2\,\varepsilon (1+\varepsilon)} \sin\phi_S F_{UT}^{\sin \phi_S }
+%  + \sqrt{2\,\varepsilon (1+\varepsilon)} \sin(2\phi_h-\phi_S) F_{UT}^{\sin(2\phi_h -\phi_S)}\big]\nonumber \\
+%&+& \lambda_e s_\perp
+%\big[\sqrt{1-\varepsilon^2} \cos(\phi_h-\phi_S) F_{LT}^{\cos(\phi_h -\phi_S)}
+%  +\sqrt{2\varepsilon (1-\varepsilon)} \cos\phi_S F_{LT}^{\cos \phi_S} \nonumber \\
+%  && \phantom{\lambda_e s_\perp}
+%  +\sqrt{2\,\varepsilon (1-\varepsilon)} \cos(2\phi_h-\phi_S) F_{LT}^{\cos(2\phi_h - \phi_S)} \big] \Bigr\},
+%\label{e:crossmaster}
+%\end{eqnarray}
 
-which is presented in \cite{bacchetta, mulders}. For the unpolarized target case we have,
+The differential cross section for the SIDIS reaction $ep \rightarrow ehX$ can be written in a model independent way using a set of structure functions $F$ \cite{mulders}.  The differential cross section, without terms due to polarized targets that are not relevant for this thesis, is given below.
 
 \begin{eqnarray}
   \frac{d\sigma^{e^-P\to e^-hX}}{dx_B \, dQ^{2}\, dz\, d\phi_h\, d p_{h\perp}^2} = \frac{\alpha^2_{em}}{2x_B y Q^2} \frac{y^2}{1-\varepsilon}  ( 1+\frac{\gamma^2}{2x_B} ) \Bigl\{ F_{UU ,T} +  \varepsilon F_{UU ,L} \nonumber \\
@@ -80,13 +88,13 @@ which is presented in \cite{bacchetta, mulders}. For the unpolarized target case
 \sqrt{2\,\varepsilon (1-\varepsilon)} \sin\phi_h F_{LU}^{\sin\phi_h} \Bigr\}
 \end{eqnarray}
 
-In general, the structure functions are convolutions of TMD PDF's and Fragmentation Functions and can be written in a generic notation given below.
+Here $\lambda_e$ refers to the helicity of the incoming lepton (beam electron in our case).  If one decomposes the hadronic matrix element which is present in the hadronic tensor into different possible Dirac structures, a set of functions known as transverse momentum dependent parton distributions functions (TMD PDFs) and transverse momentum dependent fragmentation functions (TMD FFs) can be defined.  The structure functions from above can then be calculated as a convolution of these more basic non-perturbative functions.  The notation $\mathcal{C}$ is shorhtand  presented in \cite{bacchetta} as a way to write structure functions in terms of the convolutions of PDF and FF objects.
 
 \begin{equation}
   \mathcal{C}[\omega f D] = x \sum_{a} e^{2}_{a} \int d^{2}\pt d^{2}\kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) \omega (\kt, \pt) f^{a}(x, k_{T}^{2}) D^{a}(z, p_{T}^{2}) 
 \end{equation}
 
-Where a is summed over quarks and anti-quarks.  Using this notation, the structure functions appearing in the unpolarized cross section (with fixed beam helicity) can be written, 
+where a is summed over quarks and anti-quarks.  The five structure functions appearing in the cross section are, 
 
 \begin{equation}
 F_{UU,T} = \mathcal{C}[f_1 D_1] = x \sum_{a} e^{2}_{a} \int d^{2} \pt d^{2} \kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) f_{1}^{a}(x, k_{T}^{2}) D_{1}^{a}(z, p_{T}^{2})
@@ -108,9 +116,7 @@ F_{UU}^{\cos 2\phi_h} = \mathcal{C}[- \frac{2 (\vect{\hat{h}} \cdot \kt) (\vect{
   F_{LU}^{\sin\phi} = \frac{2M}{Q} \mathcal{C} \Bigl[ -\frac{\hhat \cdot \kt}{M_h} \Bigl( xeH_1^\perp + \frac{M_h}{M} f_1 \frac{\tilde{G}^\perp}{z} \Bigr) + \frac{\hhat \cdot \pt}{M} \Bigl( xg^\perp D_1 + \frac{M_h}{M} h_{1}^{\perp} \frac{\tilde{E}}{z} \Bigr) \Bigr]
 \end{equation}
 
-where the previously mentioned Boer-Mulders function $h_{1}^{\perp}$ appears at leading order in the $F_{UU}^{\cos 2\phi_h}$ term.  The $\cos( 2\phi_h)$ harmonic can be fit in the measured cross section to extract the structure function $F_{UU}^{cos 2\phi_h}$, giving insight into the size of the Boer-Mulders effect.\\
-
-The beam spin asymmetry (BSA) is defined as the cross section difference (with respect to the 2 beam helicity states) over the total cross section.
+where the previously mentioned Boer-Mulders function $h_{1}^{\perp}$ appears at leading order in the $F_{UU}^{\cos 2\phi_h}$ term.  This dissertation will present measurements of combinations of these 5 structure functions.  The unpolarized terms which carry $UU$ indices will be accessed directly through the SIDIS cross section, and the $F_{LU}^{\sin\phi_h}$ term will be measured by measuring the beam spin asymmetry.  The beam spin asymmetry (BSA) is defined as the cross section difference (with respect to the 2 beam helicity states) over the total cross section.
 
 \begin{equation}
   BSA = \frac{d\sigma^+ - d\sigma^-}{d\sigma^+ + d\sigma^-} = \frac{\phimod{LU}{\sin\phi}}{1 + \phimod{UU}{\cos\phi} + \phimod{UU}{\cos(2\phi)}}
@@ -122,5 +128,5 @@ Where the coefficient $A_{LU}^{\sin\phi}$ is defined as,
   A_{LU}^{\sin\phi} = \sqrt{2\,\varepsilon (1-\varepsilon)} \frac{F_{LU}^{\sin\phi}}{F_{UU,T} + \varepsilon F_{UU,L}}
 \end{equation}
 
-This asymmetry is particularly interesting because all of the terms that appear in the expansion of the structure function have a twist-3 contribution.  If the measurement of this BSA is therefore non-zero, it indicates a sizable contribution of twist-3 TMD functions.  This effect has been observed to be non-zero previously for $\pi$ mesons in the work of \cite{gohn}.  
+This asymmetry is particularly interesting because all of the terms that appear in the expansion of the structure function have a twist-3 contribution.  If the measurement of this BSA is therefore non-zero, it indicates a sizable contribution of twist-3 TMD functions.  This effect has been observed to be non-zero previously for $\pi$ mesons in the work of \cite{pion-bsa-gohn}.  
 

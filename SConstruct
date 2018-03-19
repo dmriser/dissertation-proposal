@@ -1,6 +1,6 @@
 import os
 
-env=Environment()
+env = Environment()
 
 # Look in standard directory ~/texmf for .sty files
 env['ENV']['TEXMFHOME'] = os.path.join(os.environ['HOME'], 'texmf')

@@ -8,7 +8,7 @@
 	\maketitle
 	\tableofcontents
 
-	\include{firstLast/abstract}
+%	\include{firstLast/abstract}
 	\include{chapters/chapter2}
 	\include{chapters/chapter3}
 	\include{chapters/chapter4}

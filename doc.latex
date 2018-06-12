@@ -14,7 +14,8 @@
 	\include{chapters/chapter4}
 	\include{chapters/chapter5}
 	\include{chapters/chapter6}
-	
-	\printbibliography
+
+	% New way from Freddy
+	\input{chapters/references}	
 
 \end{document}

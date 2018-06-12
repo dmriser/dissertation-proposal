@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 JUN 2018 10:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 JUN 2018 11:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1484,292 +1484,157 @@ Now handling font encoding U ...
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count145
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count146
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
-\@xs@message=\write3
-\integerpart=\count147
-\decimalpart=\count148
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\c@tabx@nest=\count149
-\c@listtotal=\count150
-\c@listcount=\count151
-\c@liststart=\count152
-\c@liststop=\count153
-\c@citecount=\count154
-\c@citetotal=\count155
-\c@multicitecount=\count156
-\c@multicitetotal=\count157
-\c@instcount=\count158
-\c@maxnames=\count159
-\c@minnames=\count160
-\c@maxitems=\count161
-\c@minitems=\count162
-\c@citecounter=\count163
-\c@savedcitecounter=\count164
-\c@uniquelist=\count165
-\c@uniquename=\count166
-\c@refsection=\count167
-\c@refsegment=\count168
-\c@maxextratitle=\count169
-\c@maxextratitleyear=\count170
-\c@maxextrayear=\count171
-\c@maxextraalpha=\count172
-\c@abbrvpenalty=\count173
-\c@highnamepenalty=\count174
-\c@lownamepenalty=\count175
-\c@maxparens=\count176
-\c@parenlevel=\count177
-\blx@tempcnta=\count178
-\blx@tempcntb=\count179
-\blx@tempcntc=\count180
-\blx@maxsection=\count181
-\blx@maxsegment@0=\count182
-\blx@notetype=\count183
-\blx@parenlevel@text=\count184
-\blx@parenlevel@foot=\count185
-\blx@sectionciteorder@0=\count186
-\labelnumberwidth=\skip56
-\labelalphawidth=\skip57
-\biblabelsep=\skip58
-\bibitemsep=\skip59
-\bibnamesep=\skip60
-\bibinitsep=\skip61
-\bibparsep=\skip62
-\bibhang=\skip63
-\blx@bcfin=\read1
-\blx@bcfout=\write4
-\c@mincomprange=\count187
-\c@maxcomprange=\count188
-\c@mincompwidth=\count189
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count190
-\c@savedafterword=\count191
-\c@annotator=\count192
-\c@savedannotator=\count193
-\c@author=\count194
-\c@savedauthor=\count195
-\c@bookauthor=\count196
-\c@savedbookauthor=\count197
-\c@commentator=\count198
-\c@savedcommentator=\count199
-\c@editor=\count266
-\c@savededitor=\count267
-\c@editora=\count268
-\c@savededitora=\count269
-\c@editorb=\count270
-\c@savededitorb=\count271
-\c@editorc=\count272
-\c@savededitorc=\count273
-\c@foreword=\count274
-\c@savedforeword=\count275
-\c@holder=\count276
-\c@savedholder=\count277
-\c@introduction=\count278
-\c@savedintroduction=\count279
-\c@namea=\count280
-\c@savednamea=\count281
-\c@nameb=\count282
-\c@savednameb=\count283
-\c@namec=\count284
-\c@savednamec=\count285
-\c@translator=\count286
-\c@savedtranslator=\count287
-\c@shortauthor=\count288
-\c@savedshortauthor=\count289
-\c@shorteditor=\count290
-\c@savedshorteditor=\count291
-\c@labelname=\count292
-\c@savedlabelname=\count293
-\c@institution=\count294
-\c@savedinstitution=\count295
-\c@lista=\count296
-\c@savedlista=\count297
-\c@listb=\count298
-\c@savedlistb=\count299
-\c@listc=\count300
-\c@savedlistc=\count301
-\c@listd=\count302
-\c@savedlistd=\count303
-\c@liste=\count304
-\c@savedliste=\count305
-\c@listf=\count306
-\c@savedlistf=\count307
-\c@location=\count308
-\c@savedlocation=\count309
-\c@organization=\count310
-\c@savedorganization=\count311
-\c@origlocation=\count312
-\c@savedoriglocation=\count313
-\c@origpublisher=\count314
-\c@savedorigpublisher=\count315
-\c@publisher=\count316
-\c@savedpublisher=\count317
-\c@language=\count318
-\c@savedlanguage=\count319
-\c@pageref=\count320
-\c@savedpageref=\count321
-\shorthandwidth=\skip64
-\shortjournalwidth=\skip65
-\shortserieswidth=\skip66
-\shorttitlewidth=\skip67
-\shortauthorwidth=\skip68
-\shorteditorwidth=\skip69
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count322
-\c@textcitetotal=\count323
-\c@textcitemaxnames=\count324
-\c@biburlnumpenalty=\count325
-\c@biburlucpenalty=\count326
-\c@biburllcpenalty=\count327
-\c@smartand=\count328
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count329
-\c@bbx:relatedtotal=\count330
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count331
-\Gm@cntv=\count332
-\c@Gm@tempcnt=\count333
-\Gm@bindingoffset=\dimen154
-\Gm@wd@mp=\dimen155
-\Gm@odd@mp=\dimen156
-\Gm@even@mp=\dimen157
-\Gm@layoutwidth=\dimen158
-\Gm@layoutheight=\dimen159
-\Gm@layouthoffset=\dimen160
-\Gm@layoutvoffset=\dimen161
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen154
+\Hy@linkcounter=\count145
+\Hy@pagecounter=\count146
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count147
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4374.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count148
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen155
+\Fld@menulength=\count149
+\Field@Width=\dimen156
+\Fld@charsize=\dimen157
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count150
+\c@Item=\count151
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count152
+\c@bookmark@seq@number=\count153
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip56
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip57
+\bibsep=\skip58
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count154
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count155
+\Gm@cntv=\count156
+\c@Gm@tempcnt=\count157
+\Gm@bindingoffset=\dimen158
+\Gm@wd@mp=\dimen159
+\Gm@odd@mp=\dimen160
+\Gm@even@mp=\dimen161
+\Gm@layoutwidth=\dimen162
+\Gm@layoutheight=\dimen163
+\Gm@layouthoffset=\dimen164
+\Gm@layoutvoffset=\dimen165
 \Gm@dimlist=\toks22
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip70
-\f@ncyO@elh=\skip71
-\f@ncyO@erh=\skip72
-\f@ncyO@olh=\skip73
-\f@ncyO@orh=\skip74
-\f@ncyO@elf=\skip75
-\f@ncyO@erf=\skip76
-\f@ncyO@olf=\skip77
-\f@ncyO@orf=\skip78
+\fancy@headwidth=\skip59
+\f@ncyO@elh=\skip60
+\f@ncyO@erh=\skip61
+\f@ncyO@olh=\skip62
+\f@ncyO@orh=\skip63
+\f@ncyO@elf=\skip64
+\f@ncyO@erf=\skip65
+\f@ncyO@olf=\skip66
+\f@ncyO@orf=\skip67
 ))
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
-)
-\@quotelevel=\count334
-\@quotereset=\count335
-
 (/Users/davidriser/repos/dissertation-proposal/doc.aux
 (/Users/davidriser/repos/dissertation-proposal/firstLast/title.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter2.aux)
@@ -1791,6 +1656,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Try loading font information for OT1+ppl on input line 5.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1ppl.fd
@@ -1798,26 +1665,23 @@ File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
-\scratchdimen=\dimen162
+\scratchcounter=\count158
+\scratchdimen=\dimen166
 \scratchbox=\box44
-\nofMPsegments=\count337
-\nofMParguments=\count338
+\nofMPsegments=\count159
+\nofMParguments=\count160
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count339
-\MPscratchDim=\dimen163
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
+\MPscratchCnt=\count161
+\MPscratchDim=\dimen167
+\MPnumerator=\count162
+\makeMPintoPDFobject=\count163
 \everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -1829,17 +1693,26 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `doc.bcf'.
+\AtBeginShipoutBox=\box45
+Package hyperref Info: Link coloring OFF on input line 5.
 
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'doc.bbl' found.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/Users/davidriser/repos/dissertation-proposal/doc.bbl)
-Package biblatex Info: Reference section=0 on input line 5.
-Package biblatex Info: Reference segment=0 on input line 5.
+(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count164
+)
+LaTeX Info: Redefining \ref on input line 5.
+LaTeX Info: Redefining \pageref on input line 5.
+LaTeX Info: Redefining \nameref on input line 5.
+
+(/Users/davidriser/repos/dissertation-proposal/doc.out)
+(/Users/davidriser/repos/dissertation-proposal/doc.out)
+\@outlinefile=\write3
+\openout3 = `doc.out'.
+
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1893,10 +1766,10 @@ LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <14.4> not available
 
 (/Users/davidriser/repos/dissertation-proposal/doc.toc
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 1.
 )
-\tf@toc=\write5
-\openout5 = `doc.toc'.
+\tf@toc=\write4
+\openout4 = `doc.toc'.
 
  [1
 
@@ -1927,13 +1800,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
 LaTeX Warning: Reference `fig:TMD-table' on page 2 undefined on input line 22.
 
-<image/TMD-table.jpg, id=9, 820.6142pt x 559.50967pt>
+<image/TMD-table.jpg, id=123, 820.6142pt x 559.50967pt>
 File: image/TMD-table.jpg Graphic file (type jpg)
 
 <use image/TMD-table.jpg>
 Package pdftex.def Info: image/TMD-table.jpg used on input line 26.
 (pdftex.def)             Requested size: 284.52756pt x 193.99577pt.
- <image/PhiHadron.png, id=10, 391.4625pt x 160.6pt>
+ <image/PhiHadron.png, id=124, 391.4625pt x 160.6pt>
 File: image/PhiHadron.png Graphic file (type png)
 
 <use image/PhiHadron.png>
@@ -1941,29 +1814,13 @@ Package pdftex.def Info: image/PhiHadron.png used on input line 43.
 (pdftex.def)             Requested size: 284.52756pt x 116.73465pt.
  [2
 
-]
-
-LaTeX Warning: Citation 'mulders' on page 3 undefined on input line 89.
-
-
-LaTeX Warning: Citation 'bacchetta' on page 3 undefined on input line 97.
-
-[3 </Users/davidriser/repos/dissertation-proposal/image/TMD-table.jpg> </Users/
-davidriser/repos/dissertation-proposal/image/PhiHadron.png (PNG copy)>]
-
-LaTeX Warning: Citation 'pion-bsa-gohn' on page 4 undefined on input line 137.
-
-) [4]
+] [3 </Users/davidriser/repos/dissertation-proposal/image/TMD-table.jpg> </User
+s/davidriser/repos/dissertation-proposal/image/PhiHadron.png (PNG copy)>]) [4]
 \openout2 = `chapters/chapter3.aux'.
 
- (/Users/davidriser/repos/dissertation-proposal/chapters/chapter3.tex
 
-LaTeX Warning: Citation 'cebaf-leemann' on page 5 undefined on input line 5.
-
-
-LaTeX Warning: Citation 'clas' on page 5 undefined on input line 8.
-
-<image/CEBAF.jpg, id=30, 144.54pt x 111.2958pt>
+(/Users/davidriser/repos/dissertation-proposal/chapters/chapter3.tex
+<image/CEBAF.jpg, id=172, 144.54pt x 111.2958pt>
 File: image/CEBAF.jpg Graphic file (type jpg)
  <use image/CEBAF.jpg>
 Package pdftex.def Info: image/CEBAF.jpg used on input line 12.
@@ -1979,26 +1836,18 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 
 
  </Users/davidriser/repos/dissertation-proposal/image/CEBAF.jpg>]
-<image/CLAS.png, id=34, 686.565pt x 445.665pt>
+<image/CLAS.png, id=180, 686.565pt x 445.665pt>
 File: image/CLAS.png Graphic file (type png)
  <use image/CLAS.png>
 Package pdftex.def Info: image/CLAS.png used on input line 29.
 (pdftex.def)             Requested size: 284.52756pt x 184.68912pt.
-
-
-LaTeX Warning: Citation 'electron-note' on page 6 undefined on input line 45.
-
-[6 </Users/davidriser/repos/dissertation-proposal/image/CLAS.png (PNG copy)>]
-<image/ECFiducial.png, id=38, 800.9925pt x 776.9025pt>
+ [6 </Users/davidriser/repos/dissertation-proposal/image/CLAS.png (PNG copy)>]
+<image/ECFiducial.png, id=186, 800.9925pt x 776.9025pt>
 File: image/ECFiducial.png Graphic file (type png)
 
 <use image/ECFiducial.png>
 Package pdftex.def Info: image/ECFiducial.png used on input line 49.
 (pdftex.def)             Requested size: 256.0748pt x 248.37679pt.
-
-
-LaTeX Warning: Citation 'kaon-note' on page 7 undefined on input line 55.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
@@ -2010,12 +1859,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter4.tex
 
-LaTeX Warning: Citation 'fcup-note' on page 8 undefined on input line 3.
+Package natbib Warning: Citation `fcup-note' on page 8 undefined on input line 
+3.
 
-
-LaTeX Warning: Citation 'fcup-website' on page 8 undefined on input line 18.
-
-<image/charge_37844.png, id=43, 798.985pt x 473.77pt>
+<image/charge_37844.png, id=193, 798.985pt x 473.77pt>
 File: image/charge_37844.png Graphic file (type png)
 
 <use image/charge_37844.png>
@@ -2025,23 +1872,11 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 33.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-
-LaTeX Warning: Citation 'theses-keppel:1994' on page 8 undefined on input line 
-36.
+) [8
 
 
-Overfull \hbox (36.99925pt too wide) in paragraph at lines 36--37
-\OT1/ppl/m/n/10 Our re-sult is com-pared to a parametriza-tion of the res-o-nan
-ce re-gion be-tween $\OML/cmm/m/it/10 W \OMS/cmsy/m/n/10 2 \OT1/cmr/m/n/10 [1\O
-ML/cmm/m/it/10 :\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m
-/it/10 :\OT1/cmr/m/n/10 0]$ \OT1/ppl/m/n/10 [[]].
- []
-
-[8
-
-
-] <image/compareDataModelSector0Slice2.png, id=48, 798.985pt x 473.77pt>
+]
+<image/compareDataModelSector0Slice2.png, id=204, 798.985pt x 473.77pt>
 File: image/compareDataModelSector0Slice2.png Graphic file (type png)
 
 <use image/compareDataModelSector0Slice2.png>
@@ -2077,30 +1912,32 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\phi' on input line 10.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 10.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
+<image/bsa_z_sys.pdf, id=216, 854.30415pt x 857.97412pt>
+File: image/bsa_z_sys.pdf Graphic file (type pdf)
 
-LaTeX Warning: File `image/bsa_z_sys.pdf' not found on input line 35.
-
-
-! Package pdftex.def Error: File `image/bsa_z_sys.pdf' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 ...increasing from top left to bottom right.}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<use image/bsa_z_sys.pdf>
+Package pdftex.def Info: image/bsa_z_sys.pdf used on input line 35.
+(pdftex.def)             Requested size: 452.9679pt x 454.9205pt.
 ) [11
 
 
-] [12] [13]
+] [12 </Users/davidriser/repos/dissertation-proposal/image/bsa_z_sys.pdf>] [13]
 \openout2 = `chapters/chapter6.aux'.
 
 
@@ -2108,36 +1945,47 @@ If that doesn't work, type  X <return>  to quit.
 
 
 ]
+(/Users/davidriser/repos/dissertation-proposal/chapters/references.tex
+(/Users/davidriser/repos/dissertation-proposal/doc.bbl
+Underfull \hbox (badness 5519) in paragraph at lines 58--68
+[]\OT1/ppl/m/n/10 P. J. Mul-ders and R. D. Tanger-man, []Nucl. Phys. \OT1/ppl/b
+/n/10 B461\OT1/ppl/m/n/10 , 197 (1996)[], [Er-ra-tum: Nucl.
+ []
 
-LaTeX Warning: Empty bibliography on input line 18.
+))
 
-(/Users/davidriser/repos/dissertation-proposal/doc.aux
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 21.
+[15
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 21.
+ (/Users/davidriser/repos/dissertation-proposal/doc.aux
 (/Users/davidriser/repos/dissertation-proposal/firstLast/title.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter2.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter3.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter4.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter5.aux)
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter6.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 21.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 21.
+Package rerunfilecheck Info: File `doc.out' has not changed.
+(rerunfilecheck)             Checksum: 3C83734162E30220E1A9653DA2549BCC;1525.
+
 
 LaTeX Warning: There were undefined references.
 
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                doc
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'doc.run.xml'.
-\openout1 = `doc.run.xml'.
-
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 21.
  ) 
 Here is how much of TeX's memory you used:
- 18438 strings out of 492995
- 331312 string characters out of 6132704
- 753242 words of memory out of 5000000
- 21734 multiletter control sequences out of 15000+600000
- 22725 words of font info for 73 fonts, out of 8000000 for 9000
+ 16017 strings out of 492995
+ 273964 string characters out of 6132704
+ 347584 words of memory out of 5000000
+ 19269 multiletter control sequences out of 15000+600000
+ 23790 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,10n,45p,10402b,1061s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,45p,10402b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
@@ -2154,11 +2002,12 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf
 ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
-rw/palatino/uplr8a.pfb>
-Output written on doc.pdf (14 pages, 603261 bytes).
+rw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/pala
+tino/uplri8a.pfb>
+Output written on doc.pdf (15 pages, 637004 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 364 PDF objects out of 1000 (max. 8388607)
+ 295 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 

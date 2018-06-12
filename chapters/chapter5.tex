@@ -1,8 +1,8 @@
 \section{Kaon Beam Spin Asymmetry}
 
-In addition to the unpolarized structure functions which will be accesable from the SIDIS cross section measurement, we extracted measured the beam spin asymmetry for positively charged k-mesons in SIDIS.  This gives us access to an additional structure function $F_{LU}^{\sin\phi}$.  The measurement was performed as a function of $\phi_h$ and 4 different kinematic variables $x$, $Q^2$, $z$, and $P_T$.  \\
+In addition to the unpolarized structure functions which will be accessible from the SIDIS cross section measurement, the beam spin asymmetry for positively charged k-mesons in SIDIS is measured.  This gives us access to an additional structure function $F_{LU}^{\sin\phi}$.  The measurement was performed as a function of $\phi_h$ and 4 different kinematic variables $x$, $Q^2$, $z$, and $P_T$.  \\
 
-In order to measure kaons in the kinematically accepted DIS region, we exclude events with have $Q^2 < 1$ or which have $W < 2$.  Additionally, if the axis of measurement is not $z$, we limit the range of $z$ values included in the sample to 0.25-0.75.  This cut is used as an attempt to make our measurement in the current fragmentation region where factorization has been proved.  
+In order to measure kaons in the kinematically accepted DIS region, we exclude events with have $Q^2 < 1 \k GeV^2/c^2$ or which have $W < 2 \; GeV/c^2$.  Additionally when measuring the axes ($x$, $Q^2$, and $P_T$), the range of $z$ values included in the sample is limited to be within 0.25-0.75.  This cut is used as an attempt to make our measurement in the current fragmentation region where factorization has been proved.  
 
 \subsection{Helicity Determination}
 The beam helicity is measured periodically with a Moller polarimeter.  These measurements were analyzed statistically by Wes Gohn and it was observed that the average beam polarization was 75\%, with a variance of approximately 1\%.  
@@ -14,7 +14,7 @@ After the final sample of events has been selected, the events are binned in 12 
   A = \frac{1}{P_e} \frac{\Delta N}{N}
 \end{equation}
 
-Here $P_e$ is the fractional polarization of the beam (explained above), $N = N_+ + N_-$ and, $\Delta N = N_+ - N_-$.  By using error propagation and assuming the statistical error on the counts $N$ to be $\sqrt{N}$ one can show that the uncertainty in the beam spin asymmetry due to the statistical uncertianty in the counts is,
+Here $P_e$ is the fractional polarization of the beam (explained above), $N = N_+ + N_-$ and, $\Delta N = N_+ - N_-$.  By using error propagation and assuming the statistical error on the counts $N$ to be $\sqrt{N}$ one can show that the uncertainty in the beam spin asymmetry due to the statistical uncertainty in the counts is,
 
 \begin{equation}
   \sigma_A^2 \approx \frac{A^2}{P_e^2} \sigma_{P_e}^2 + \frac{4}{P_e^2 (N_+ + N_-)^4}(N_-^2 \sigma_{N_-}^2 + N_+^2 \sigma_{N_+}^2) 
@@ -28,19 +28,11 @@ where the uncertainty due to the $P_e$ will be added to the systematic errors.  
 
 \subsection{Systematic Uncertainties}
 
-The value of the measurement of the beam spin asymmetry in each bin can be influenced by many factors.  Common examples include the particle identification routines, the subtraction of backgrounds, and the calibration (miscalibration) of detectors.  A miscalibrated detector represents a systematic effect, that consistently moves the measured value one direction or another.  These effects are corrected for, and the detector calibration is adjusted or fixed.  In this way the analyst attemps to remove all systematic effects.  The degree to which the analyst is uncertain about his ability to correct for a systematic effect, is called systematic uncertainty.  In our simple example of calibration, the uncertianty in the calibration parameters (which will propogate through to the final answer) represents one type of systematic uncertainty. \\
+The value of the measurement of the beam spin asymmetry in each bin can be influenced by many factors.  Common examples include the particle identification routines, the subtraction of backgrounds, and the calibration (mis-calibration) of detectors.  A mis-calibrated detector represents a systematic effect, that consistently moves the measured value one direction or another.  These effects are corrected for, and the detector calibration is adjusted or fixed.  In this way I  have attempted to eliminate all systematic effects.  The degree of uncertainty which remains as to my ability to correct for a systematic effect, I call systematic uncertainty. \\
 
-In our analysis, we consider first the contribution to the total systematic uncertainty which comes from the uncertainty in the measured value of the beam polarization.  This contribution is combined together with other sources of systematic uncertainty, such as the uncertainty on input parameters to the analysis code.  The complete procedure for handling systematic uncertainties will be described in the completed thesis work, for this document the contribution of source is summarized in the table below. 
+First the contribution to the total systematic uncertainty which comes from the uncertainty in the measured value of the beam polarization is considered.  This contribution is combined together with other sources of systematic uncertainty, such as the uncertainty on input parameters to the analysis code.  The complete procedure for handling systematic uncertainties will be described in the thesis work, and my final estimates will be tabulated.  My current estimates are shown as red bars in the figure below.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%  include table of sys. here
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-At the present time, our estimate of systematic errors applies for all bins of $\phi$ and kinematic bins, but has not been applied to the extraction of the beam spin asymmetry parameters.  The errors shown for the kinematic dependence of the modulations are only those errors associated with the parameter estimation process.  The authors are in the process of preparing the systematic errors for the extracted modulations as well.
-
-\easyFigure{image/bsa_z_sys.pdf}{The beam spin asymmetry for 10 bins of $z_h$, increasing from top left to bottom right.}
+\easyFigure{image/bsa_z_sys.pdf}{The beam spin asymmetry as a function of $\phi_h$ between -180 and 180 degrees shown for 10 bins of $z_h$, increasing from top left to bottom right.}
 
 \subsection{Conclusion and Outlook}
-We have extracted integrated beam spin asymmetry measurements for four different kinematic variables.  In doing so, we observe non-zero contributions from twist-3 (or higher) TMD/FF functions.  Our measurement can now be studied using phenomenological models of TMD and FF distributions.  To conclude this project we will provide systematic uncertainties for the extracted modulations, and compare it to a phenominological model.
+We have extracted integrated beam spin asymmetry measurements for four different kinematic variables.  In doing so, we observe non-zero contributions from twist-3 (or higher) TMD/FF functions.  Our measurement can now be studied using phenomenological models of TMD and FF distributions.  To conclude this project we will provide systematic uncertainties for the extracted modulations, and compare it to a phenomenological model.

@@ -1,38 +1,44 @@
-\section{Kaon Beam Spin Asymmetry}
+\section{Semi-Inclusive DIS}
 
-In addition to the unpolarized structure functions which will be accessible from the SIDIS cross section measurement, the beam spin asymmetry for positively charged k-mesons in SIDIS is measured.  This gives us access to an additional structure function $F_{LU}^{\sin\phi}$.  The measurement was performed as a function of $\phi_h$ and 4 different kinematic variables $x$, $Q^2$, $z$, and $P_T$.  \\
+% 
+% This section is a mini version of Nate's thesis.
+%
 
-In order to measure kaons in the kinematically accepted DIS region, we exclude events with have $Q^2 < 1 \k GeV^2/c^2$ or which have $W < 2 \; GeV/c^2$.  Additionally when measuring the axes ($x$, $Q^2$, and $P_T$), the range of $z$ values included in the sample is limited to be within 0.25-0.75.  This cut is used as an attempt to make our measurement in the current fragmentation region where factorization has been proved.  
+% Background 
+% ----------
+% Multiplicities are provided by HERMES and COMPASS, JLab has provided moments
+% analysis.  There has been no measurement to date of the fully differential 
+% cross section for pion SIDIS.  Collaborating with Nate Harrison, we present
+% that result here.
 
-\subsection{Helicity Determination}
-The beam helicity is measured periodically with a Moller polarimeter.  These measurements were analyzed statistically by Wes Gohn and it was observed that the average beam polarization was 75\%, with a variance of approximately 1\%.  
 
-\subsection{Measurement of $\phi$ Dependent Asymmetry}
-After the final sample of events has been selected, the events are binned in 12 bins of $\phi$ and 10 bins of the kinematic axis.  The calculation of the BSA in each bin is done.
+% Method 
+% ------
+% We perform analysis of E1-F charged pions in the kinematic region given 
+% by (list the binning).  We perform acceptance corrections based on (model)
+% as well as radiative corrections based on (model).  
 
-\begin{equation}
-  A = \frac{1}{P_e} \frac{\Delta N}{N}
-\end{equation}
+% Results
+% -------
+% We find the differential cross section in 5-D space
 
-Here $P_e$ is the fractional polarization of the beam (explained above), $N = N_+ + N_-$ and, $\Delta N = N_+ - N_-$.  By using error propagation and assuming the statistical error on the counts $N$ to be $\sqrt{N}$ one can show that the uncertainty in the beam spin asymmetry due to the statistical uncertainty in the counts is,
+% Conclusion 
+% ----------
+% These data can be used as an observable directly sensitve to the 
+% the structure function moments cos and cos2 without having the 
+% typical ratio of the unpolarized part.  As such, they should prove
+% useful in model-dependent studies of TMDs.
 
-\begin{equation}
-  \sigma_A^2 \approx \frac{A^2}{P_e^2} \sigma_{P_e}^2 + \frac{4}{P_e^2 (N_+ + N_-)^4}(N_-^2 \sigma_{N_-}^2 + N_+^2 \sigma_{N_+}^2) 
-\end{equation}
+Multiplicities for unpolarized pion SIDIS have been provided by HERMES and COMPASS, however no measurement has been made of the absolute cross section.  In this section, a collaborative effort between the author and Nathan Harrison is described that will produce the differential cross section for $\pi^{\pm}$ SIDIS at JLab kinematics.  
 
-where the uncertainty due to the $P_e$ will be added to the systematic errors.  The counts are taken to be drawn from a Poisson distribution (which describes the probability to observe $\nu$ events when you expect N).  The variance on the counts is equal to the mean (N).  The statistical errors are then quoted as shown below. 
+\subsection{Methodology}
+Using the E1-F dataset we have identified all events which contain a good electron and a charged pion.  These events are measured fully differentially in 5-D binning of $x$, $Q^2$, $z_h$, $P_{T}^{2}$, and $\phi_h$.  Events are binned in the same way for both $\pi^+$ and $\pi^-$.  Five equal sized bins are chosen in $x$, and each $x$ bin contains 2 bins of $Q^2$ (except for the highest $x$ bin).  The spit in $Q^2$ depends on the $x$ value, increasing with increasing $x$ (1.3, 1.7, 2.2, 2.9).  The hadronic variables are binned in a simple manner, with 18 $z_h$ bins between 0-0.9, 20 $P_{T}^{2}$ bins between 0.0 and 1.0 $GeV^2/c^2$.  Finally $\phi_h$ is binned into 36 equal sized bins that span the full 360 degree range. \\
 
-\begin{equation}
-  \sigma_A^2 \approx \frac{4N_+N_-}{P_e^2 (N_+ + N_-)^3} 
-\end{equation}
+Acceptance corrections are applied in the same way described in the inclusive section, in this case a Pythia based model is used to generate events.  The kinematic dependence of the reconstructed events matches well with the data, except for the $\phi_h$ axis where an iterative procedure is used to find suitable initial parameters for $A_{UU}^{\cos\phi_h}$ and $A_{UU}^{\cos(2\phi_h)}$.  \\
 
-\subsection{Systematic Uncertainties}
+Radiative corrections are produced using HAPRAD 2.0, which takes the Born cross section (produced by a model) and produces the radiated cross section.  
 
-The value of the measurement of the beam spin asymmetry in each bin can be influenced by many factors.  Common examples include the particle identification routines, the subtraction of backgrounds, and the calibration (mis-calibration) of detectors.  A mis-calibrated detector represents a systematic effect, that consistently moves the measured value one direction or another.  These effects are corrected for, and the detector calibration is adjusted or fixed.  In this way I  have attempted to eliminate all systematic effects.  The degree of uncertainty which remains as to my ability to correct for a systematic effect, I call systematic uncertainty. \\
 
-First the contribution to the total systematic uncertainty which comes from the uncertainty in the measured value of the beam polarization is considered.  This contribution is combined together with other sources of systematic uncertainty, such as the uncertainty on input parameters to the analysis code.  The complete procedure for handling systematic uncertainties will be described in the thesis work, and my final estimates will be tabulated.  My current estimates are shown as red bars in the figure below.
+\subsection{Results}
+Here is a description of the results. 
 
-\easyFigure{image/bsa_z_sys.pdf}{The beam spin asymmetry as a function of $\phi_h$ between -180 and 180 degrees shown for 10 bins of $z_h$, increasing from top left to bottom right.}
-
-\subsection{Conclusion and Outlook}
-We have extracted integrated beam spin asymmetry measurements for four different kinematic variables.  In doing so, we observe non-zero contributions from twist-3 (or higher) TMD/FF functions.  Our measurement can now be studied using phenomenological models of TMD and FF distributions.  To conclude this project we will provide systematic uncertainties for the extracted modulations, and compare it to a phenomenological model.

@@ -6,3 +6,6 @@
 *.blg
 *.aux
 *.fls
+*.toc
+*.xml
+*~ 

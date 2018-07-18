@@ -51,8 +51,29 @@ All negative tracks start out as electron candidates, they are accepted if they 
   \label{fig:ecfid}
 \end{figure}
 
+\subsubsection{Pion Identification}
+If an event contains a good electron, the rest of the event is processed.  Hadrons in CLAS are separated by using $\beta$ measured by the time of flight system and $p$ measured from the drift chambers.  Theoretically $\beta$ depends on the particle momentum according to, 
+
+\begin{equation}
+	\beta = \frac{1}{\sqrt{1 + (m/p)^2}}
+\end{equation}
+
+where $m$ is the mass of the particle.  Pions are selected inside of upper and lower boundaries of $\beta(p)$.  These boundaries are created by first binning the two dimensional histogram of $\beta$ vs $p$ into 70 momentum bins from (0.2 - 3.75) GeV.  Then, the peak in $\beta$ that corresponds to the pion mass is fit in each bin with a Gaussian.  The central position and width are recorded, and events that fall within three standard deviations from the mean are kept for analysis.  This procedure is modified however above 2 GeV in momentum to lessen proton contamination, here we use a tighter (fixed) value.    
+
+\begin{figure}
+  \centering 
+  \includegraphics[width=12cm]{image/nathan-pip.png}
+  \caption{Selection boundaries for positive pions are shown above for 70 bins of momentum.  Figure credit to Nathan Harrison \cite{theses-harrison:2015}}
+\end{figure}
+
 \subsubsection{Kaon Identification}
-If an event contains a good electron, the rest of the event is processed.  Kaons are identified based on time of flight information.  In this analysis, we use a maximum likelihood ratio technique to classify all positive tracks as either pions, kaons, or protons.  Finally, we control the track quality by requiring a significance level of $\alpha = 0.05$.  
+In this analysis a maximum likelihood ratio technique is used to classify kaons and reject pions/protons.  This technique is similar to the pion identification desscribed above, differing mainly in the interpretation.  The track quality is controlled by requiring a confidence level of $\alpha = 0.05$.  The full procedure will be described in my dissertation. 
+
+\begin{figure}
+  \centering 
+  \includegraphics[width=10cm]{image/pbeta_kp.pdf}
+  \caption{The one $\sigma$ boundaries around the expected value of $\beta$ as a function of $p$ are shown for positively charged kaons.}
+\end{figure}
 
 \subsection{EVA Framework}
 The Evaluation and VAlidation (EVA) software is a project on-going at the University of Connecticut and Jefferson Lab.  The goal of EVA is to build a tool that can be used to extract TMD functions from data taken during CLAS12 operation, as well as global data from other collaborations/experiments.  As a form of validation, EVA will have the ability to generate physics events based on some physics model and a set of parameters.  These events can be fed into the particle swimming detector simulation for CLAS12, and the results can be analyzed.  The EVA framework can then extract from the simulated data the parameters in the chosen model.  These parameters can be compared with the starting point in the EVA chain. \\

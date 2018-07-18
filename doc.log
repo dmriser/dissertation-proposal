@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 JUL 2018 08:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 JUL 2018 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1801,13 +1801,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
 LaTeX Warning: Reference `fig:TMD-table' on page 2 undefined on input line 22.
 
-<image/TMD-table.jpg, id=128, 820.6142pt x 559.50967pt>
+<image/TMD-table.jpg, id=133, 820.6142pt x 559.50967pt>
 File: image/TMD-table.jpg Graphic file (type jpg)
 
 <use image/TMD-table.jpg>
 Package pdftex.def Info: image/TMD-table.jpg used on input line 26.
 (pdftex.def)             Requested size: 284.52756pt x 193.99577pt.
- <image/PhiHadron.png, id=129, 391.4625pt x 160.6pt>
+ <image/PhiHadron.png, id=134, 391.4625pt x 160.6pt>
 File: image/PhiHadron.png Graphic file (type png)
 
 <use image/PhiHadron.png>
@@ -1821,7 +1821,7 @@ s/davidriser/repos/dissertation-proposal/image/PhiHadron.png (PNG copy)>]) [4]
 
 
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter3.tex
-<image/CEBAF.jpg, id=177, 144.54pt x 111.2958pt>
+<image/CEBAF.jpg, id=182, 144.54pt x 111.2958pt>
 File: image/CEBAF.jpg Graphic file (type jpg)
  <use image/CEBAF.jpg>
 Package pdftex.def Info: image/CEBAF.jpg used on input line 12.
@@ -1837,33 +1837,49 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 
 
  </Users/davidriser/repos/dissertation-proposal/image/CEBAF.jpg>]
-<image/CLAS.png, id=185, 686.565pt x 445.665pt>
+<image/CLAS.png, id=190, 686.565pt x 445.665pt>
 File: image/CLAS.png Graphic file (type png)
  <use image/CLAS.png>
 Package pdftex.def Info: image/CLAS.png used on input line 29.
 (pdftex.def)             Requested size: 284.52756pt x 184.68912pt.
  [6 </Users/davidriser/repos/dissertation-proposal/image/CLAS.png (PNG copy)>]
-<image/ECFiducial.png, id=191, 800.9925pt x 776.9025pt>
+<image/ECFiducial.png, id=196, 800.9925pt x 776.9025pt>
 File: image/ECFiducial.png Graphic file (type png)
 
 <use image/ECFiducial.png>
 Package pdftex.def Info: image/ECFiducial.png used on input line 49.
 (pdftex.def)             Requested size: 256.0748pt x 248.37679pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+<image/nathan-pip.png, id=197, 829.0975pt x 678.535pt>
+File: image/nathan-pip.png Graphic file (type png)
+
+<use image/nathan-pip.png>
+Package pdftex.def Info: image/nathan-pip.png used on input line 65.
+(pdftex.def)             Requested size: 341.43306pt x 279.42287pt.
+
+<image/pbeta_kp.pdf, id=201, 569.12625pt x 558.085pt>
+File: image/pbeta_kp.pdf Graphic file (type pdf)
+ <use image/pbeta_kp.pdf>
+Package pdftex.def Info: image/pbeta_kp.pdf used on input line 74.
+(pdftex.def)             Requested size: 284.52756pt x 279.01627pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-) [7 </Users/davidriser/repos/dissertation-proposal/image/ECFiducial.png>]
+[7 </Users/davidriser/repos/dissertation-proposal/image/ECFiducial.png>]
+[8 </Users/davidriser/repos/dissertation-proposal/image/nathan-pip.png> </Users
+/davidriser/repos/dissertation-proposal/image/pbeta_kp.pdf, page is rotated 90 
+degrees>]) [9]
 \openout2 = `chapters/chapter4.aux'.
 
 
 (/Users/davidriser/repos/dissertation-proposal/chapters/chapter4.tex
 
-Package natbib Warning: Citation `fcup-note' on page 8 undefined on input line 
-3.
+Package natbib Warning: Citation `fcup-note' on page 10 undefined on input line
+ 3.
 
-<image/charge_37844.png, id=198, 798.985pt x 473.77pt>
+<image/charge_37844.png, id=264, 798.985pt x 473.77pt>
 File: image/charge_37844.png Graphic file (type png)
 
 <use image/charge_37844.png>
@@ -1873,20 +1889,20 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 33.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [8
+) [10
 
 
 ]
-<image/compareDataModelSector0Slice2.png, id=209, 798.985pt x 473.77pt>
+<image/compareDataModelSector0Slice2.png, id=275, 798.985pt x 473.77pt>
 File: image/compareDataModelSector0Slice2.png Graphic file (type png)
 
 <use image/compareDataModelSector0Slice2.png>
 Package pdftex.def Info: image/compareDataModelSector0Slice2.png used on input 
 line 57.
 (pdftex.def)             Requested size: 452.9679pt x 268.59865pt.
-) [9 </Users/davidriser/repos/dissertation-proposal/image/charge_37844.png>] [1
-0 </Users/davidriser/repos/dissertation-proposal/image/compareDataModelSector0S
-lice2.png>]
+) [11 </Users/davidriser/repos/dissertation-proposal/image/charge_37844.png>] [
+12 </Users/davidriser/repos/dissertation-proposal/image/compareDataModelSector0
+Slice2.png>]
 \openout2 = `chapters/chapter5.aux'.
 
 
@@ -1895,14 +1911,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-<image/nathan-xq2.png, id=221, 1575.8875pt x 525.965pt>
+<image/nathan-xq2.png, id=287, 1575.8875pt x 525.965pt>
 File: image/nathan-xq2.png Graphic file (type png)
 
 <use image/nathan-xq2.png>
 Package pdftex.def Info: image/nathan-xq2.png used on input line 39.
 (pdftex.def)             Requested size: 398.33858pt x 132.94354pt.
 
-<image/nathan-zpt.png, id=225, 1591.9475pt x 541.02126pt>
+<image/nathan-zpt.png, id=290, 1591.9475pt x 541.02126pt>
 File: image/nathan-zpt.png Graphic file (type png)
 
 <use image/nathan-zpt.png>
@@ -1913,24 +1929,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-<image/nathan-acceptance.png, id=228, 1078.0275pt x 641.39626pt>
+<image/nathan-acceptance.png, id=293, 1078.0275pt x 641.39626pt>
 File: image/nathan-acceptance.png Graphic file (type png)
 
 <use image/nathan-acceptance.png>
 Package pdftex.def Info: image/nathan-acceptance.png used on input line 57.
 (pdftex.def)             Requested size: 398.33858pt x 236.99971pt.
 
-<image/xs_compare_2043.pdf, id=231, 517.9644pt x 385.46417pt>
+<image/xs_compare_2043.pdf, id=296, 517.9644pt x 385.46417pt>
 File: image/xs_compare_2043.pdf Graphic file (type pdf)
 
 <use image/xs_compare_2043.pdf>
 Package pdftex.def Info: image/xs_compare_2043.pdf used on input line 68.
 (pdftex.def)             Requested size: 398.33858pt x 296.44954pt.
-) [11
+) [13
 
 
  </Users/davidriser/repos/dissertation-proposal/image/nathan-xq2.png> </Users/d
-avidriser/repos/dissertation-proposal/image/nathan-zpt.png>] [12 </Users/davidr
+avidriser/repos/dissertation-proposal/image/nathan-zpt.png>] [14 </Users/davidr
 iser/repos/dissertation-proposal/image/nathan-acceptance.png> </Users/davidrise
 r/repos/dissertation-proposal/image/xs_compare_2043.pdf>]
 \openout2 = `chapters/chapter6.aux'.
@@ -1975,20 +1991,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-<image/bsa_z_sys.pdf, id=271, 854.30415pt x 857.97412pt>
+<image/bsa_z_sys.pdf, id=337, 854.30415pt x 857.97412pt>
 File: image/bsa_z_sys.pdf Graphic file (type pdf)
 
 <use image/bsa_z_sys.pdf>
 Package pdftex.def Info: image/bsa_z_sys.pdf used on input line 35.
 (pdftex.def)             Requested size: 452.9679pt x 454.9205pt.
-) [13
+) [15
 
 
-] [14 </Users/davidriser/repos/dissertation-proposal/image/bsa_z_sys.pdf>] [15]
+] [16 </Users/davidriser/repos/dissertation-proposal/image/bsa_z_sys.pdf>] [17]
 \openout2 = `chapters/chapter7.aux'.
 
 
-(/Users/davidriser/repos/dissertation-proposal/chapters/chapter7.tex) [16
+(/Users/davidriser/repos/dissertation-proposal/chapters/chapter7.tex) [18
 
 
 ]
@@ -2004,7 +2020,7 @@ Underfull \hbox (badness 5519) in paragraph at lines 58--68
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 22.
-[17
+[19
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
@@ -2019,7 +2035,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 22.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
 Package rerunfilecheck Info: File `doc.out' has not changed.
-(rerunfilecheck)             Checksum: A621F9438FCEC99CAC450FD618E0908E;1579.
+(rerunfilecheck)             Checksum: 825F908E86843C1162C9A35A5B3840AF;1658.
 
 
 LaTeX Warning: There were undefined references.
@@ -2027,10 +2043,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 22.
  ) 
 Here is how much of TeX's memory you used:
- 16057 strings out of 492995
- 275084 string characters out of 6132704
- 347944 words of memory out of 5000000
- 19290 multiletter control sequences out of 15000+600000
+ 16074 strings out of 492995
+ 275385 string characters out of 6132704
+ 347945 words of memory out of 5000000
+ 19299 multiletter control sequences out of 15000+600000
  23790 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,11n,45p,10402b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2054,10 +2070,10 @@ nts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/p
 alatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb>
-Output written on doc.pdf (17 pages, 1765733 bytes).
+Output written on doc.pdf (19 pages, 2369177 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 338 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 489 PDF objects out of 1000 (max. 8388607)
+ 373 compressed objects within 4 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 

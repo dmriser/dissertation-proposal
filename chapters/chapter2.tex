@@ -1,34 +1,32 @@
-
 \section{Motivation}
 
 \subsection{Statement of Purpose}
 This dissertation will present measurements for, 
 
 \begin{enumerate}
-  \item the SIDIS structure function combination $F_{UU,T} + \epsilon F_{UU,L}$, as well as the structure function$F_{UU}^{\cos\phi}$, and $F_{UU}^{\cos(2\phi)}$.  These quantities will be extracted for $\pi^+$ and $\pi^-$ from the differential cross section.
+  \item the SIDIS structure function combination $F_{UU,T} + \epsilon F_{UU,L}$, as well as the structure function $F_{UU}^{\cos\phi}$, and $F_{UU}^{\cos(2\phi)}$.  These quantities will be extracted for $\pi^+$ and $\pi^-$ from the differential cross section.
   \item the SIDIS structure function $F_{LU}^{\sin\phi}$.  This will be extracted from beam spin asymmetry measurements for $K^{+}$.
 \end{enumerate}
 
-Finally, using these results, the last chapter of my dissertation will be devoted to a phenomenological analysis of the results in the framework of TMD functions.  This work will take place as a collaboration between myself and the EVA working group.
+\subsection{Motivation}
 
-\subsection{Qualitative Motivation}
+%The field of nuclear and particle physics grew tremendously during the middle part of the 20th century.  As the Stanford Linear Accelerator (SLAC) accelerated electrons and collided them into various types of targets, previously unknown particles were discovered rapidly.  The abundance of particles was eventually explained by Gell-Man and Zweig with the inclusion of a set of new fundamental particles called quarks that carried a new degree of freedom known as color.  These ideas birthed the Quark Model which successfully predicted the masses and existence of new particles made of quarks, and eventually grew into Quantum Chromodynamics (QCD).  \\
 
-The field of nuclear and particle physics grew tremendously during the middle part of the 20th century.  As the Stanford Linear Accelerator (SLAC) accelerated electrons and collided them into various types of targets, previously unknown particles were discovered rapidly.  The abundance of particles was eventually explained by Gell-Man and Zweig with the inclusion of a set of new fundamental particles called quarks that carried a new degree of freedom known as color.  These ideas birthed the Quark Model which successfully predicted the masses and existence of new particles made of quarks, and eventually grew into Quantum Chromodynamics (QCD).  \\
+%A key feature of Quantum Chromodynamics is confinement; bound states of quarks must be colorless and thus quarks cannot be directly observed outside of the hadrons they compose.  During the last 50 years, quark momenta within hadrons has been studied successfully with co-linear parton distribution functions (PDFs).  At leading order these functions $f(x)$ can be interpreted as the probability to find a quark with a co-linear (along the direction of the momentum transfer from the probe) momentum fraction $x$ in a hadron.  However, the one-dimensional momentum distributions don't tell the full story of what's happening inside the hadron, and during the last 15-20 years the focus has shifted to the study of three-dimensional nucleon structure. \\
 
-A key feature of Quantum Chromodynamics is confinement; bound states of quarks must be colorless and thus quarks cannot be directly observed outside of the hadrons they compose.  During the last 50 years, quark momenta within hadrons has been studied successfully with co-linear parton distribution functions (PDFs).  At leading order these functions $f(x)$ can be interpreted as the probability to find a quark with a co-linear (along the direction of the momentum transfer from the probe) momentum fraction $x$ in a hadron.  However, the one-dimensional momentum distributions don't tell the full story of what's happening inside the hadron, and during the last 15-20 years the focus has shifted to the study of three-dimensional nucleon structure. \\
-
-The transverse momentum dependent parton distribution functions (TMDs) are a set of functions $f(x,\kt)$ that describe quark distributions for a quark with momentum fraction $x$ and a momentum in the transverse plane $\kt$.  TMD functions are expected to be universal, and show up in the cross sections for Drell-Yan ($hh \rightarrow l \bar{l}X$) and semi-inclusive deep inelastic scattering (SIDIS) and other processes.  This thesis work will measure SIDIS.  \\
+Transverse momentum dependent parton distribution functions (TMDs) describe quark distributions for a quark with momentum fraction $x$ and a momentum in the transverse plane $\kt$.  TMD functions are expected to be universal, and show up in the cross sections for Drell-Yan ($hh \rightarrow l \bar{l}X$) and semi-inclusive deep inelastic scattering (SIDIS) and other processes.  This thesis work will measure SIDIS.  \\
 
 At leading order (twist two) there are eight TMD functions, each corresponding to different combinations of quark and nucleon spin.  They are shown in figure \ref{fig:tmd-table}.  The Boer-Mulders function $h_{1}^{\perp}$ for example, describes the difference in transverse quark polarization in an unpolarized nucleus.  A non-zero observation of the Boer-Mulders function would imply that quarks have a non-zero orbital angular momentum.  The measurement of $F_{UU}^{\cos\phi}$, and $F_{UU}^{\cos(2\phi)}$ provide data which can be used to test model dependent predictions for the Boer-Mulders function, as well as any future predictions for the structure functions (these need not even be related to the TMD framework).  
 
 \begin{figure}
   \centering
-  \includegraphics[width=10cm]{image/TMD-table.jpg}
-  \caption{Leading twist TMD PDFs and their interpretation in terms of different combinations of quark/nucleon spin.}
+  \includegraphics[width=6cm]{image/TMD-table.jpg}
+  \includegraphics[width=8cm]{image/PhiHadron.png}
+  \caption{Left: Leading twist TMD PDFs and their interpretation in terms of different combinations of quark/nucleon spin. Right:  The angle $\phi_h$ shown as the angle between the lepton and hadron planes in a SIDIS event. }
   \label{fig:tmd-table}
-\end{figure}
+ 
 
-\subsection{Quantitative Motivation}
+\end{figure}
 
 Deep Inelastic Scattering (DIS) events are those in which a lepton $e(l)$ collides with a hadron $h(P)$ (in our case a proton), transferring sufficient momentum (sufficiently is an imprecise term, as a working assumption I use $Q^{2} \geq 1.0 \: GeV^{2}/c^{2}$) to the hadron to interact with one of it's constituent partons.  An inclusive event is one in which only the outgoing lepton is identified and the kinematics are calculated based on the difference between the beam leptons and the final state lepton.  Semi-Inclusive DIS (SIDIS) events are those in which one (or more) hadron is detected in the final state along with the scattered lepton $e'(l')$.  
 
@@ -37,13 +35,6 @@ Deep Inelastic Scattering (DIS) events are those in which a lepton $e(l)$ collid
 \end{equation}
 
 In SIDIS it is customary to define the following kinematic variables (where $q = l - l'$ and $Q^{2} = -q^{2}$). 
-
-\begin{figure}
-  \centering
-  \includegraphics[width=10cm]{image/PhiHadron.png}
-  \label{fig:dis}
-  \caption{ The angle $\phi_h$ shown as the angle between the lepton and hadron planes in a SIDIS event. }
-\end{figure}
 
 \begin{align}
   x = \frac{Q^{2}}{2P \cdot q} && y = \frac{P \cdot q}{P \cdot l} && z = \frac{P \cdot P_{h}}{P \cdot q} && \gamma = \frac{2Mx}{Q}
@@ -54,37 +45,6 @@ Additionally, the ratio $\varepsilon$ of the longitudinal and transverse photon 
 \begin{equation}
 	\varepsilon = \frac{1 - y - \frac{1}{4}\gamma^2 y^2}{1 - y + \frac{1}{2}y^2 + \frac{1}{4}\gamma^2 y^2}
 \end{equation}
-
-%\begin{eqnarray}
-%\frac{d\sigma^{e^-P\to e^-hX}}{dx_B \, dQ^{2} \,dz\, d\phi_h\, d p_{h\perp}^2}
-%&=&\frac{\alpha^2_{em}}{2x_B y Q^2}
-%\frac{y^2}{1-\varepsilon}  ( 1+\frac{\gamma^2}{2x_B} ) \Bigl\{  \nonumber \\
-%&& F_{UU ,T} +  \varepsilon F_{UU ,L}
-%+ \sqrt{2\,\varepsilon (1+\varepsilon)} \cos\phi_h F_{UU}^{\cos\phi_h}
-%+ \varepsilon \cos(2\phi_h) F_{UU}^{\cos 2\phi_h} \nonumber \\
-%&+& \lambda_e
-%\sqrt{2\,\varepsilon (1-\varepsilon)} \sin\phi_h F_{LU}^{\sin\phi_h}
-%+ \lambda \big[ \sqrt{2 \varepsilon (1+\varepsilon)} \sin\phi_h F_{UL}^{\sin\phi_h}
-%  +  \varepsilon \sin(2\phi_h) F_{UL}^{\sin 2\phi_h} \big] \nonumber \\
-%&+&  \lambda_e \lambda
-%\big[\sqrt{1-\varepsilon^2} F_{LL}
-%  +\sqrt{2\varepsilon (1-\varepsilon)} \cos\phi_h F_{LL}^{\cos \phi_h}\big] \nonumber \\
-%&+& s_\perp
-%\big[ \sin(\phi_h-\phi_S) \bigl(F_{UT ,T}^{\sin(\phi_h -\phi_S)}
-%  + \varepsilon\, F_{UT ,L}^{\sin(\phi_h -\phi_S)}\bigr) \nonumber \\
-%  && \phantom{s_\perp}
-%  + \varepsilon \sin(\phi_h+\phi_S) F_{UT}^{\sin(\phi_h +\phi_S)}
-%  + \varepsilon \sin(3\phi_h-\phi_S) F_{UT}^{\sin(3\phi_h -\phi_S)} \nonumber \\
-%  && \phantom{s_\perp}
-%  + \sqrt{2\,\varepsilon (1+\varepsilon)} \sin\phi_S F_{UT}^{\sin \phi_S }
-%  + \sqrt{2\,\varepsilon (1+\varepsilon)} \sin(2\phi_h-\phi_S) F_{UT}^{\sin(2\phi_h -\phi_S)}\big]\nonumber \\
-%&+& \lambda_e s_\perp
-%\big[\sqrt{1-\varepsilon^2} \cos(\phi_h-\phi_S) F_{LT}^{\cos(\phi_h -\phi_S)}
-%  +\sqrt{2\varepsilon (1-\varepsilon)} \cos\phi_S F_{LT}^{\cos \phi_S} \nonumber \\
-%  && \phantom{\lambda_e s_\perp}
-%  +\sqrt{2\,\varepsilon (1-\varepsilon)} \cos(2\phi_h-\phi_S) F_{LT}^{\cos(2\phi_h - \phi_S)} \big] \Bigr\},
-%\label{e:crossmaster}
-%\end{eqnarray}
 
 The differential cross section for the SIDIS reaction $ep \rightarrow ehX$ can be written in a model independent way using a set of structure functions $F$ \cite{tmds-mulders:1995}.  The differential cross section, without terms due to polarized targets that are not relevant for this thesis, is given below.
 

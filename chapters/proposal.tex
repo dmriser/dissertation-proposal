@@ -1,16 +1,16 @@
 \section{Motivation}
 
 \subsection{Statement of Purpose}
-This dissertation will present measurements for, 
+This dissertation will present measurements of, 
 
 \begin{enumerate}
-  \item the SIDIS structure function combination $F_{UU,T} + \epsilon F_{UU,L}$, as well as the structure function $F_{UU}^{\cos\phi}$, and $F_{UU}^{\cos(2\phi)}$.  These quantities will be extracted for $\pi^+$ and $\pi^-$ from the differential cross section.
+  \item the SIDIS structure function combination $F_{UU,T} + \epsilon F_{UU,L}$, as well as the structure functions $F_{UU}^{\cos\phi}$, and $F_{UU}^{\cos(2\phi)}$.  These quantities will be extracted for $\pi^+$ and $\pi^-$ from the differential cross section.
   \item the SIDIS structure function $F_{LU}^{\sin\phi}$.  This will be extracted from beam spin asymmetry measurements for $K^{+}$.
 \end{enumerate}
 
 \subsection{Background \& Theory}
 % Setting up the problem (where is the proton spin coming from)
-Protons and neutrons (nucleons) are spin-half fermions.  Exactly how quarks and gluons dynamically combine to produce the net spin-half of the nucleon is not clear.  Striking results of $g_2$ measurements performed by the European Muon Collaboration (EMC) in 1988 \cite{pdfs-leader:1988} demonstrated that only $30\%$ of the spin of the nucleons can be attributed to quark spin.  This result became known as the \textit{proton spin crisis}, and remains largely unresolved.  The understanding of quark orbital angular momentum in the nucleon, and it's contribution to the proton spin, is therefore of vital importance.  \\
+Protons and neutrons (nucleons) are spin-half fermions.  Exactly how quarks and gluons dynamically combine to produce the net spin-half of the nucleon is not clear.  Striking results of $g_2$ measurements performed by the European Muon Collaboration (EMC) in 1988 \cite{pdfs-leader:1988} demonstrated that only $30\%$ of the spin of the nucleons can be attributed to quark spin.  This result became known as the \textit{proton spin crisis}, and remains largely unresolved.  The understanding of quark orbital angular momentum in the nucleon and it's contribution to the proton spin is therefore of vital importance.  \\
 
 % Introducing important character (TMD)
 Addressing the question of orbital angular momentum distributions of partons within nucleons motivates moving beyond a co-linear picture of parton interactions.   During the early 1990s, theoretical tools began to emerge that are now being used to study quark dynamics in three-dimensions.  Transverse momentum dependent functions (TMDs) naturally extend the co-linear parton distribution functions (PDFs) to include intrinsic quark momentum in the plane transverse to the hard probe \cite{tmds-mulders:1995, tmds-bacchetta:2006}.  \\
@@ -63,10 +63,10 @@ The notation $\mathcal{C}$ is shorhtand  presented in \cite{tmds-bacchetta:2006}
   \mathcal{C}[\omega f D] = x \sum_{a} e^{2}_{a} \int d^{2}\pt d^{2}\kt \delta^{(2)} \left( z\kt + \pt - \vect{P}_{h\perp} \right) \omega (\kt, \pt) f^{a}(x, k_{T}^{2}) D^{a}(z, p_{T}^{2}) 
 \end{equation}
 
-Here the summation over quark flavors $a$ is explicitly shown.
+Here the summation over quark flavors $a$ is explicitly shown. \\
 
 % Describe each TMD PDF/FF present in the structure function.
-At twist-three four TMD PDFs appear in the structure function, one of which is known as the Boer Mulders function $h_{1}^{\perp}$.  The Boer Mulders TMD is a twist-two time-reversal odd function.  Additionally, $g^{\perp}$ is a twist-three time reversal odd TMD, that has been compared to a higher twist analog of the Sivers function.  Finally, $e$ is a chiral odd twist-three TMD and $f_1$ the unpolarized TMD.  Two twist-three fragmentation functions appear in the expression $\tilde{G}^{\perp}$, $\tilde{E}$, as the leading twist Collins $H_{1}^{\perp}$ and $D_1$ the fragmentation functions.
+At twist-three four TMD PDFs appear in the structure function, one of which is known as the Boer Mulders function $h_{1}^{\perp}$.  The Boer Mulders TMD is a twist-two time-reversal odd function.  Additionally, $g^{\perp}$ is a twist-three time reversal odd TMD, that has been compared to a higher twist analog of the Sivers function.  Finally, $e$ is a chiral odd twist-three TMD and $f_1$ the unpolarized TMD.  Two twist-three fragmentation functions appear in the expression $\tilde{G}^{\perp}$, $\tilde{E}$, as the leading twist Collins $H_{1}^{\perp}$ and $D_1$ the fragmentation functions. \\
 
 % Introduce the TMDs which show up in SIDIS cross section measurements 
 The unpolarized cross section (where the beam helicity term is not present) contains the leading order $f_1$ TMD and the $D_1$ fragmentation function.  Additionally, the structure functions that are modulated by $\cos\phi_h$ and $\cos(2\phi_h)$ are composed of the following TMD building blocks.
@@ -88,7 +88,7 @@ The Boer-Mulders function $h_1$ which is present in the $\cos(2\phi_h)$ term has
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Methodology}
-This section comrises the majority of the proposal, and enumerates the methodology that will be used to outline the problem posed in the first section, as well as detailing the facilities that will be used to complete this work.  \\
+This section comprises the majority of the proposal, and enumerates the methodology that will be used to address the problem posed in the first section, as well as detailing the facilities that will be used to complete this work.  \\
 
 To measure the SIDIS events, one needs a source of high energy electrons, a detector system capable of measuring the final state electron and hadron, and a computing cluster to perform data processing and analysis.
 
@@ -114,7 +114,7 @@ Hall-B contains the CEBAF Large Acceptance Spectrometer (CLAS) a large spherical
 \end{figure}
 
 \subsubsection{E1-F}
-The CLAS collaboration collected the E1-F dataset between April and July of 2003.  The beam energy was 5.498 GeV, and the target was a 5 cenitmeter long liquid hydrogen cell (providing essentially stationary protons).  The large toroidal magnet was powered with 2250 Amperes of current, chosen to maximize the acceptance of pions.
+The data analysis proposed in this document makes use of the E1-F dataset.  The CLAS collaboration collected the E1-F dataset between April and July of 2003.  The beam energy was 5.498 GeV, and the target was a 5 cenitmeter long liquid hydrogen cell (providing essentially stationary protons).  The large toroidal magnet was powered with 2250 Amperes of current, chosen to maximize the acceptance of pions.
 
 \subsection{General Data Analysis}
 Analysis of the data taken by the CLAS detector is a process which starts with reconstruction of the raw data (electrical signals recorded by ADC and TDC components).  The reconstruction algorithm builds particle tracks by finding the best possible track through a set of detector hits.  The result is a set of files with charge, momentum, timing, and preliminary particle identification information for each event.  The reconstruction package is the critical first step to a data analysis, however the first task for most analysts is the identification of electrons.
@@ -147,7 +147,11 @@ where $m$ is the mass of the particle.  Pions are selected inside of upper and l
 \section{Analysis Specific Procedures}
 
 \subsection{SIDIS}
-The structure function ratios $A_{UU}^{\cos\phi}$ and $A_{UU}^{\cos(2\phi)}$ were previously measured by hall-B and analyzed by Nathan Harrison.  In this dissertation we extend this previous work by calculating, validating, and applying the integrated luminosity factor necessary to transform this previous measurement into an absolute cross section.  In order to validate the integrated luminosity calculation, we have measured the cross section for inclusive electron scattering ($ep \rightarrow e'X$).  This work entailed calculating the integrated luminosity \cite{fcup-note}, measuring the electron yield in bins of $W$ and $Q^2$, and corrected these yields for acceptance effects as well as radiative effects.  The cross section is experimentally measured by combining the following factors. 
+Multiplicities for unpolarized pion SIDIS have been provided by HERMES and COMPASS, however no measurement has been made of the absolute cross section.  In this section, a collaborative effort between the author and Nathan Harrison is described that will produce the differential cross section for $\pi^{\pm}$ SIDIS at JLab kinematics.  
+
+Using the E1-F dataset we have identified all events which contain a good electron and a charged pion.  These events are measured fully differentially in 5-D binning of $x$, $Q^2$, $z_h$, $P_{T}^{2}$, and $\phi_h$.  Events are binned in the same way for both $\pi^+$ and $\pi^-$.  Five equal sized bins are chosen in $x$, and each $x$ bin contains 2 bins of $Q^2$ (except for the highest $x$ bin).  The split in $Q^2$ depends on the $x$ value, increasing with increasing $x$ (1.3, 1.7, 2.2, 2.9).  The hadronic variables are binned in a simple manner, with 18 $z_h$ bins between 0-0.9, 20 $P_{T}^{2}$ bins between 0.0 and 1.0 $GeV^2/c^2$.  Finally $\phi_h$ is binned into 36 equal sized bins that span the full 360 degree range. \\
+
+In order to validate the integrated luminosity calculation, we have measured the cross section for inclusive electron scattering ($ep \rightarrow e'X$).  This work entailed calculating the integrated luminosity \cite{fcup-note}, measuring the electron yield in bins of $W$ and $Q^2$, and corrected these yields for acceptance effects as well as radiative effects.  The cross section is experimentally measured by combining the following factors. 
 
 \begin{equation}
   \frac{d\sigma_i}{dW dQ^2} = \frac{1}{\Delta W_i \Delta Q^2_i} \frac{N_{obs} - N_{BG}}{\mathcal{L}} \frac{1}{A_i R_i}
@@ -167,10 +171,6 @@ Some of these effects (holes/obstructions) can be taken into consideration using
 
 \subsubsection{Radiative Corrections}
 It is not uncommon for electrons to emit a real photon in the initial or final state of the interaction.  These radiations alter the event kinematics and must be removed in order to present Born cross sections (nature provides us with the radiated cross section).  This is done by modeling the inclusive reaction with and without radiative effects and comparing the results.  The correction factor $R = N_{rad}/N_{no rad}$ can be constructed from a sufficient event generator(in the inclusive analysis we use \texttt{keppel\_rad} and \texttt{keppel\_norad}, HAPRAD is used for the SIDIS events).  
-
-Multiplicities for unpolarized pion SIDIS have been provided by HERMES and COMPASS, however no measurement has been made of the absolute cross section.  In this section, a collaborative effort between the author and Nathan Harrison is described that will produce the differential cross section for $\pi^{\pm}$ SIDIS at JLab kinematics.  
-
-Using the E1-F dataset we have identified all events which contain a good electron and a charged pion.  These events are measured fully differentially in 5-D binning of $x$, $Q^2$, $z_h$, $P_{T}^{2}$, and $\phi_h$.  Events are binned in the same way for both $\pi^+$ and $\pi^-$.  Five equal sized bins are chosen in $x$, and each $x$ bin contains 2 bins of $Q^2$ (except for the highest $x$ bin).  The split in $Q^2$ depends on the $x$ value, increasing with increasing $x$ (1.3, 1.7, 2.2, 2.9).  The hadronic variables are binned in a simple manner, with 18 $z_h$ bins between 0-0.9, 20 $P_{T}^{2}$ bins between 0.0 and 1.0 $GeV^2/c^2$.  Finally $\phi_h$ is binned into 36 equal sized bins that span the full 360 degree range. \\
 
 \begin{figure}
   \centering 
@@ -214,10 +214,12 @@ where the uncertainty due to the $P_e$ will be added to the systematic errors.  
   \sigma_A^2 \approx \frac{4N_+N_-}{P_e^2 (N_+ + N_-)^3} 
 \end{equation}
 
+Systematic uncertainties are calculated by considering the change in our results due to the small variation of inputs to our analysis framework.  The procedure, which is standard in the field of experimental nuclear physics, will be described in detail in the dissertation document.  
+
 \subsection{Conclusion and Outlook}
-We have extracted integrated beam spin asymmetry measurements for four different kinematic variables.  In doing so, we observe non-zero contributions from twist-3 (or higher) TMD/FF functions.  Our measurement can now be studied using phenomenological models of TMD and FF distributions.  To conclude this project we will provide systematic uncertainties for the extracted modulations, and compare it to a phenomenological model.
+The resources necessary to complete the proposed work are now completely computational and are supplied by the Jefferson national laboratory high performance computing department.  Analysis procedures common to our analyses such as particle identification and corrections to data (described briefly here) are well established, and the application to new measurements poses little technical risk.  We foresee no issues in continuing to use the computing resources provided by JLab with these analysis procedures to satisfactorily achieve the proposed physics goals.  
 
 \section{Conclusion}
 %In this document, I have described my ongoing research efforts to make an impact in the field of nucleon structure research.  Specifically, we propose that this dissertation project will (1) extract the %structure function $F_{LU}^{\sin\phi}$ for positive kaons, (2) take steps necessary to extend a current CLAS measurement of unpolarized SIDIS azimuthal modulations to the absolute (SIDIS) cross %section, and (3) utilize existing phenomenology and modeling to predict these measurements.  My work on both (1) and (3) is now at an advanced stage, and the remaining tasks have been briefly %described in the document above.  
 
-This proposal outlines the two primary goals of my thesis research, the measurement of unpolarized SIDIS cross sections for $\pi^{\pm}$ and the measurement of beam spin asymmetries for the positively charged k-meson in SIDIS.  Recently, much emphasis has been placed on the importance of understanding the transverse spatial and momentum structure of the quarks that comprise the nucleon, our work contributes significantly in understanding TMD distributions in protons.  Our measurement of cross sections in SIDIS provides the opportunity for directly accessing the structure functions $F_{UU}^{\cos\phi_h}$ and $F_{UU}^{\cos(2\phi_h)}$ which have previously only been accessed through ratios.  This mature work is the result of years of collaborative effort, and is now in the final stages of preparation.  My measurement of a non-vanishing beam spin asymmetry in SIDIS provides an important reminder of the importance of higher twist contributions in TMD physics at Jefferson lab energies, at least to the structure function $F_{LU}^{\sin\phi_h}$.  A complete report summarizing the beam spin asymmetry results is now being reviewed for submission as a CLAS analysis note.  Mapping of quark dynamics within protons and neutrons is a large and collaborative task, and I feel that this work represents an important building block.  It is my hope that the approval committee agrees with this statement, and approves this dissertation for completion. 
+This proposal outlines the two primary goals of my thesis research, the measurement of unpolarized SIDIS cross sections for $\pi^{\pm}$ and the measurement of beam spin asymmetries for the positively charged k-meson in SIDIS.  Recently, emphasis has been placed on the importance of understanding the transverse spatial and momentum structure of the quarks that comprise the nucleon, our work contributes significantly in understanding TMD distributions in protons.  Our measurement of cross sections in SIDIS provides the opportunity for directly accessing the structure functions $F_{UU}^{\cos\phi_h}$ and $F_{UU}^{\cos(2\phi_h)}$ which have previously only been accessed through ratios.  This mature work is the result of years of collaborative effort, and is now in the final stages of preparation.  My measurement of a non-vanishing beam spin asymmetry in SIDIS provides an important reminder of the importance of higher twist contributions in TMD physics at Jefferson lab energies, at least to the structure function $F_{LU}^{\sin\phi_h}$.  A complete report summarizing the beam spin asymmetry results is now being reviewed for submission as a CLAS analysis note.  Mapping of quark dynamics within protons and neutrons is a large and collaborative task, and I feel that this work represents an important building block.  It is my hope that the approval committee agrees with this statement, and approves this dissertation for completion. 
